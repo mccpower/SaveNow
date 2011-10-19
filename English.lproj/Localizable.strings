@@ -1,0 +1,74 @@
+/* 
+   Localizable.strings
+   EFM
+
+   Created by Pablo Sierra on 12/03/2011.
+   Copyright 2011 __MyCompanyName__. All rights reserved.
+ */
+ 
+/* CATEGORIAS */
+"necesidadesBasicas" = "Living expenses	";
+"gastosFijos" = "Fixed costs";
+"transporte" = "Transport";
+"ocio" = "Leisure";
+"otrosGastos" = "Other expenses";
+"ahorro" = "Savings";
+
+//Ventanas flotantes de información
+"informacionNecesidadesBasicas"="Envelope for money that you spent on food, personal care";
+"informacionGastosFijos"="Envelope dedicated to loans, mortgages, bills, phone...";
+"informacionTransporte"="Spent on transportation costs";
+"informacionOcio"="Envelope dedicated to entertainment: movies, restaurants, bars ...";
+"informacionOtrosGastos"="In this envelope goes expenses not covered under the above categories";
+"informacionAhorro"="Envelope where goes the money we save for a quirk or meet a goal set";
+
+/* PESTAÑAS */
+"tabSobres" = "Envelopes";
+"tabPreferencias" = "Preferences";
+
+/* PESTAÑA SOBRES */
+"textoPresupuesto" = "Budget";
+"textoGastado" = "Spent";
+"textoPorcentaje" = "Percent";
+
+"textoUltimoGasto" = "Last expense";
+"textoUltimoReset" = "Last reset";
+
+//Botones
+"textoBotonSacar" = "Out";
+"textoBotonReset" = "Reset";
+
+//Reset Ahorros
+"mensajeResetAhorros" = "¿Do you want to reset saving envelope?"; 
+"botonAceptarResetAhorros" = "OK";
+"botonCancelarResetAhorros" = "Cancel";
+
+//Reset General
+"tituloResetSobre" = "¿Do you want to move left money?";
+"botonSoloReseteo" ="Just Reset";
+"botonEnviarAhorro" ="Send to savings";
+"botonCancelarResetSobre" ="Cancel";
+
+//Sacar en ahorro
+"mensajeNotienesAhorros"="There isn't enough money";
+//Sacar en el resto de sobres
+"mensajeNumerosRojos"="¿Are you sure? You are going in the red";
+"botonAceptarNumerosRojos"="Ok";
+"botonCancelarNumerosRojos"="Cancel";
+
+/* PESTAÑA PREFERENCIAS */
+"tituloPreferencias" = "Preferences";
+"tituloPresupuestosSobres" = "Budgets";
+"tituloMoneda" = "Currency";
+"tituloTotal" ="Sum";
+
+//Mensaje no ha introducido presupuesto
+"tituloError" = "Error";
+"mensajeError" = "You haven't introduce any budget";
+"botonAceptar"= "OK";
+
+//Mensajes para el actionsheet
+"tituloActualizacionPresupuesto" = "When do you want to update it?"; 
+"botonCancelar" = "Cancel";
+"botonAhora" = "Now";
+"botonProximoReset" = "Next Reset";

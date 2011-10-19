@@ -1,0 +1,752 @@
+TSave Money Now
+v7
+r0
+t322691244.375848
+cCheck dependencies
+cCpResource "build/Debug-iphoneos/Save Money Now.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Info.plist" "Save Money Now-Info.plist"
+cCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib
+cCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib
+cCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib
+cCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib
+cCopyPlistFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/SobresDetalleData.plist" SobresDetalleData.plist
+cCpResource "build/Debug-iphoneos/Save Money Now.app/botonGuardar.jpg" botonGuardar.jpg
+cCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/sobreTab.png" sobreTab.png
+cCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/preferenciasTab.png" preferenciasTab.png
+cCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/sobreDetalle.png" sobreDetalle.png
+cCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/iconoApp.png" iconoApp.png
+cCopyStringsFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/English.lproj/Localizable.strings" English.lproj/Localizable.strings
+cCopyStringsFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Spanish.lproj/Localizable.strings" Spanish.lproj/Localizable.strings
+cCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/fondopref.png" fondopref.png
+cProcessPCH "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-adkwgpylsrizbafgivqmpuebdbfl/Save Money Now_Prefix.pch.gch" "Save Money Now_Prefix.pch" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-gegkdaluetkxtqhexvroyrydwyrh/Save Money Now_Prefix.pch.gch" "Save Money Now_Prefix.pch" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/main.o" /Users/Pablo/Desktop/Pendrive/EFM/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/EFMAppDelegate.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/SobresController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/PreferenciasController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/SobreDetalleController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/main.o" /Users/Pablo/Desktop/Pendrive/EFM/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/EFMAppDelegate.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/Save Money Now" normal armv6
+cCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/SobresController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/PreferenciasController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/SobreDetalleController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/Save Money Now" normal armv7
+cCreateUniversalBinary "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Save Money Now" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app.dSYM" "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Save Money Now"
+cProcessProductPackaging "/Users/Pablo/Library/MobileDevice/Provisioning Profiles/2FE192B3-8D6A-4E63-8A95-3B7EDFCBBFBC.mobileprovision" "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/embedded.mobileprovision"
+cTouch "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now.xcent"
+cCodeSign "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m
+c000000004D79218F0000000000001FA5
+t1299784079
+s8101
+i"SobresController.h"
+i"SobreDetalleController.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib
+c000000004D7C2A230000000000067024
+t1299982883
+s421924
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m
+c000000004D7D3BFB0000000000003B92
+t1300052987
+s15250
+i"PreferenciasController.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib
+c000000004D7CCE0600000000000104D3
+t1300024838
+s66771
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.h
+c000000004D7CCDF00000000000000A39
+t1300024816
+s2617
+i<UIKit/UIKit.h>
+i"EFMAppDelegate.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m
+c000000004D7D3FEA00000000000048AA
+t1300053994
+s18602
+i"SobreDetalleController.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib
+c000000004D0519300000000000005266
+t1292179760
+s21094
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.h
+c000000004D6C0CA900000000000002A2
+t1298926761
+s674
+i<UIKit/UIKit.h>
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m
+c000000004D702EC70000000000000F83
+t1299197639
+s3971
+i"EFMAppDelegate.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/SobresController.h
+c000000004D683822000000000000027E
+t1298675746
+s638
+i<UIKit/UIKit.h>
+i"SobreDetalleController.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/English.lproj/Localizable.strings
+c000000004D7CCBB100000000000008EE
+t1300024241
+s2286
+
+N/Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib
+c000000004D77E34200000000000097E6
+t1299702594
+s38886
+
+N/Users/Pablo/Desktop/Pendrive/EFM/PreferenciasController.h
+c000000004D7C2A2F0000000000000812
+t1299982895
+s2066
+i<UIKit/UIKit.h>
+i"EFMAppDelegate.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Save Money Now_Prefix.pch
+c000000004CD2E11A00000000000000AF
+t1288888602
+s175
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Pablo/Desktop/Pendrive/EFM/SobreDetalleController.h
+c000000004D7CCDF00000000000000A39
+t1300024816
+s2617
+i<UIKit/UIKit.h>
+i"EFMAppDelegate.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/SobresDetalleData.plist
+c000000004D7CD1FD0000000000000ACA
+t1300025853
+s2762
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Spanish.lproj/Localizable.strings
+c000000004D7C28D4000000000000094F
+t1299982548
+s2383
+
+N/Users/Pablo/Desktop/Pendrive/EFM/botonGuardar.jpg
+c000000004CF2F5F60000000000003054
+t1290991094
+s12372
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app
+t1300998444
+s748
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app.dSYM
+t1300998443
+s102
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/English.lproj/Localizable.strings
+t1300998440
+s2025
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Info.plist
+t1300998438
+s843
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/MainWindow.nib
+t1300998439
+s1976
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/PkgInfo
+t1300998438
+s8
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Preferencias.nib
+t1300998439
+s6114
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/ResourceRules.plist
+t1300998438
+s485
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Save Money Now
+t1300998443
+s182176
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/SobreDetalle.nib
+t1300998440
+s6072
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Sobres.nib
+t1300998439
+s1223
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/SobresDetalleData.plist
+t1300998439
+s539
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Spanish.lproj/Localizable.strings
+t1300998440
+s2411
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/botonGuardar.jpg
+t1300998439
+s12372
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/embedded.mobileprovision
+t1300998443
+s7253
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/fondopref.png
+t1300998440
+s3866
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/iconoApp.png
+t1300998440
+s12824
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/preferenciasTab.png
+t1300998440
+s3213
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/sobreDetalle.png
+t1300998441
+s75825
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/sobreTab.png
+t1300998440
+s3146
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/EFMAppDelegate.o
+t1300998442
+s59388
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/PreferenciasController.o
+t1300998442
+s104356
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/Save Money Now
+t1300998443
+s88640
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/Save Money Now.LinkFileList
+c000000004D8BA92600000000000002AB
+t1300998438
+s683
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/SobreDetalleController.o
+t1300998443
+s118748
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/SobresController.o
+t1300998442
+s55780
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/main.o
+t1300998442
+s6436
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/EFMAppDelegate.o
+t1300998443
+s59228
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/PreferenciasController.o
+t1300998443
+s102688
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/Save Money Now
+t1300998443
+s87968
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/Save Money Now.LinkFileList
+c000000004D8BA92600000000000002AB
+t1300998438
+s683
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/SobreDetalleController.o
+t1300998443
+s116420
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/SobresController.o
+t1300998443
+s54716
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/main.o
+t1300998443
+s6420
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now.xcent
+t1300998443
+s434
+
+N/Users/Pablo/Desktop/Pendrive/EFM/fondopref.png
+c000000004D7BD94A0000000000000E72
+t1299962186
+s3698
+
+N/Users/Pablo/Desktop/Pendrive/EFM/iconoApp.png
+c000000004D7A283E0000000000002F67
+t1299851326
+s12135
+
+N/Users/Pablo/Desktop/Pendrive/EFM/main.m
+c000000004CD2E11A000000000000015A
+t1288888602
+s346
+i<UIKit/UIKit.h>
+
+N/Users/Pablo/Desktop/Pendrive/EFM/preferenciasTab.png
+c000000004D77E2600000000000000C90
+t1299702368
+s3216
+
+N/Users/Pablo/Desktop/Pendrive/EFM/sobreDetalle.png
+c000000004D791F810000000000010DC0
+t1299783553
+s69056
+
+N/Users/Pablo/Desktop/Pendrive/EFM/sobreTab.png
+c000000004D75A0E20000000000000C68
+t1299554530
+s3176
+
+N/Users/Pablo/Library/MobileDevice/Provisioning Profiles/2FE192B3-8D6A-4E63-8A95-3B7EDFCBBFBC.mobileprovision
+c000000004D2FA0AD0000000000001C55
+t1294966957
+s7253
+
+N/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-adkwgpylsrizbafgivqmpuebdbfl/Save Money Now_Prefix.pch.gch
+t1300998442
+s9983704
+
+N/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-gegkdaluetkxtqhexvroyrydwyrh/Save Money Now_Prefix.pch.gch
+t1300998442
+s10446552
+
+NSave Money Now-Info.plist
+c000000004D7A286A0000000000000395
+t1299851370
+s917
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322691237#322691238#0(0"0(0#1#0"29836824280170608#0"0#
+
+CCodeSign "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app"
+s322691243.916612
+e322691244.375783
+r1
+xCodeSign
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app
+lSLF07#2@50"CodeSign "build/Debug-iphoneos/Save Money Now.app"322691243#322691244#0(0"0(0#0#73"/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app8602570400#679"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Pablo Sierra Gutierrez (YA6BQZH657)" "--resource-rules=/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/ResourceRules.plist" --entitlements "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now.xcent" "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app"0#
+
+CCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/EFMAppDelegate.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322691242.372535
+e322691242.549651
+r1
+xCompileC
+xbuild/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/EFMAppDelegate.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m322691242#322691242#0(0"0(0#0#58"/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m8604135296#1853"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources/armv6" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources" -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-adkwgpylsrizbafgivqmpuebdbfl/Save Money Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/EFMAppDelegate.o"0#
+
+CCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/PreferenciasController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322691242.549808
+e322691242.947201
+r1
+xCompileC
+xbuild/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/PreferenciasController.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m: In function '-[PreferenciasController botonActualizarPresupuesto:]':
+o/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m:208: warning: incompatible Objective-C types 'struct UIView *', expected 'struct UITabBar *' when passing argument 1 of 'showFromTabBar:' from distinct Objective-C type
+lSLF07#2@77"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m322691242#322691242#0(379"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m: In function '-[PreferenciasController botonActualizarPresupuesto:]':/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m:208: warning: incompatible Objective-C types 'struct UIView *', expected 'struct UITabBar *' when passing argument 1 of 'showFromTabBar:' from distinct Objective-C type1(22@154"Incompatible Objective-C types 'struct UIView *', expected 'struct UITabBar *' when passing argument 1 of 'showFromTabBar:' from distinct Objective-C type322691242#140#239#0(6@69"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m321745787#208#0#208#0#0"0(0#0#69"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m8603187264#1872"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources/armv6" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources" -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-adkwgpylsrizbafgivqmpuebdbfl/Save Money Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/PreferenciasController.o"0#
+
+CCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/SobreDetalleController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322691242.647538
+e322691243.065814
+r1
+xCompileC
+xbuild/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/SobreDetalleController.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m322691242#322691243#0(0"0(0#0#69"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m8603730912#1872"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources/armv6" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources" -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-adkwgpylsrizbafgivqmpuebdbfl/Save Money Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/SobreDetalleController.o"0#
+
+CCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/SobresController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322691242.457441
+e322691242.647372
+r1
+xCompileC
+xbuild/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/SobresController.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m322691242#322691242#0(0"0(0#0#71"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m8603824800#1868"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources/armv6" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources" -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-adkwgpylsrizbafgivqmpuebdbfl/Save Money Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/SobresController.o"0#
+
+CCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/main.o" /Users/Pablo/Desktop/Pendrive/EFM/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322691242.370971
+e322691242.457288
+r1
+xCompileC
+xbuild/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/main.o
+x/Users/Pablo/Desktop/Pendrive/EFM/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/Pablo/Desktop/Pendrive/EFM/main.m322691242#322691242#0(0"0(0#0#40"/Users/Pablo/Desktop/Pendrive/EFM/main.m8604358016#1825"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources/armv6" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources" -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-adkwgpylsrizbafgivqmpuebdbfl/Save Money Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/main.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/main.o"0#
+
+CCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/EFMAppDelegate.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322691243.035941
+e322691243.187301
+r1
+xCompileC
+xbuild/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/EFMAppDelegate.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m322691243#322691243#0(0"0(0#0#58"/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m8604266368#1853"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources/armv7" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources" -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-gegkdaluetkxtqhexvroyrydwyrh/Save Money Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/EFMAppDelegate.o"0#
+
+CCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/PreferenciasController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322691243.231813
+e322691243.626899
+r1
+xCompileC
+xbuild/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/PreferenciasController.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m: In function '-[PreferenciasController botonActualizarPresupuesto:]':
+o/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m:208: warning: incompatible Objective-C types 'struct UIView *', expected 'struct UITabBar *' when passing argument 1 of 'showFromTabBar:' from distinct Objective-C type
+lSLF07#2@77"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m322691243#322691243#0(379"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m: In function '-[PreferenciasController botonActualizarPresupuesto:]':/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m:208: warning: incompatible Objective-C types 'struct UIView *', expected 'struct UITabBar *' when passing argument 1 of 'showFromTabBar:' from distinct Objective-C type1(22@154"Incompatible Objective-C types 'struct UIView *', expected 'struct UITabBar *' when passing argument 1 of 'showFromTabBar:' from distinct Objective-C type322691243#140#239#0(6@69"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m321745787#208#0#208#0#0"0(0#0#69"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m8604299968#1872"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources/armv7" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources" -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-gegkdaluetkxtqhexvroyrydwyrh/Save Money Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/PreferenciasController.o"0#
+
+CCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/SobreDetalleController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322691243.382324
+e322691243.730396
+r1
+xCompileC
+xbuild/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/SobreDetalleController.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m322691243#322691243#0(0"0(0#0#69"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m8602967648#1872"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources/armv7" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources" -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-gegkdaluetkxtqhexvroyrydwyrh/Save Money Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/SobreDetalleController.o"0#
+
+CCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/SobresController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322691243.187471
+e322691243.382166
+r1
+xCompileC
+xbuild/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/SobresController.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m322691243#322691243#0(0"0(0#0#71"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m8604963840#1868"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources/armv7" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources" -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-gegkdaluetkxtqhexvroyrydwyrh/Save Money Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/SobresController.o"0#
+
+CCompileC "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/main.o" /Users/Pablo/Desktop/Pendrive/EFM/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322691242.947412
+e322691243.035788
+r1
+xCompileC
+xbuild/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/main.o
+x/Users/Pablo/Desktop/Pendrive/EFM/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/Pablo/Desktop/Pendrive/EFM/main.m322691242#322691243#0(0"0(0#0#40"/Users/Pablo/Desktop/Pendrive/EFM/main.m8604595200#1825"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources/armv7" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources" -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-gegkdaluetkxtqhexvroyrydwyrh/Save Money Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/main.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib
+s322691238.234096
+e322691239.545753
+r1
+xCompileXIB
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+o/* com.apple.ibtool.document.warnings */
+o/Users/Pablo/Desktop/Pendrive/EFM/Preferencias.xib:75: warning: Tint color is only supported with bar style segmented controls.
+lSLF07#2@38"CompileXIB Classes/../Preferencias.xib322691238#322691239#0(253"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)/* com.apple.ibtool.document.warnings *//Users/Pablo/Desktop/Pendrive/EFM/Preferencias.xib:75: warning: Tint color is only supported with bar style segmented controls.1(22@63"Tint color is only supported with bar style segmented controls.322691239#18446744073709551615#0#0(6@50"/Users/Pablo/Desktop/Pendrive/EFM/Preferencias.xib321675683#75#0#75#0#0"0(0#0#61"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib8604002688#551"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Preferencias.nib" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib
+s322691239.545886
+e322691240.714414
+r1
+xCompileXIB
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@38"CompileXIB Classes/../SobreDetalle.xib322691239#322691240#0(168"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#61"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib13229757704831080#551"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/SobreDetalle.nib" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib
+s322691239.137610
+e322691239.845072
+r1
+xCompileXIB
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib
+lSLF07#2@32"CompileXIB Classes/../Sobres.xib322691239#322691239#0(0"0(0#0#55"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib8603836192#539"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Sobres.nib" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib
+s322691238.233058
+e322691239.137476
+r1
+xCompileXIB
+x/Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib322691238#322691239#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#48"/Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib8604173024#536"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/MainWindow.nib" /Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/fondopref.png" fondopref.png
+s322691240.915415
+e322691240.976046
+r1
+xCopyPNGFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/fondopref.png
+xfondopref.png
+lSLF07#2@81"CopyPNGFile "build/Debug-iphoneos/Save Money Now.app/fondopref.png" fondopref.png322691240#322691240#0(0"0(0#0#47"/Users/Pablo/Desktop/Pendrive/EFM/fondopref.png8603289888#560"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Pablo/Desktop/Pendrive/EFM/fondopref.png "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/fondopref.png"0#
+
+CCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/iconoApp.png" iconoApp.png
+s322691240.714716
+e322691240.813001
+r1
+xCopyPNGFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/iconoApp.png
+xiconoApp.png
+lSLF07#2@79"CopyPNGFile "build/Debug-iphoneos/Save Money Now.app/iconoApp.png" iconoApp.png322691240#322691240#0(0"0(0#0#46"/Users/Pablo/Desktop/Pendrive/EFM/iconoApp.png8605097536#558"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Pablo/Desktop/Pendrive/EFM/iconoApp.png "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/iconoApp.png"0#
+
+CCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/preferenciasTab.png" preferenciasTab.png
+s322691240.038067
+e322691240.083935
+r1
+xCopyPNGFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/preferenciasTab.png
+xpreferenciasTab.png
+lSLF07#2@93"CopyPNGFile "build/Debug-iphoneos/Save Money Now.app/preferenciasTab.png" preferenciasTab.png322691240#322691240#0(0"0(0#0#53"/Users/Pablo/Desktop/Pendrive/EFM/preferenciasTab.png8603429152#572"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Pablo/Desktop/Pendrive/EFM/preferenciasTab.png "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/preferenciasTab.png"0#
+
+CCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/sobreDetalle.png" sobreDetalle.png
+s322691240.084081
+e322691241.373333
+r1
+xCopyPNGFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/sobreDetalle.png
+xsobreDetalle.png
+lSLF07#2@87"CopyPNGFile "build/Debug-iphoneos/Save Money Now.app/sobreDetalle.png" sobreDetalle.png322691240#322691241#0(0"0(0#0#50"/Users/Pablo/Desktop/Pendrive/EFM/sobreDetalle.png8603232544#566"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Pablo/Desktop/Pendrive/EFM/sobreDetalle.png "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/sobreDetalle.png"0#
+
+CCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/sobreTab.png" sobreTab.png
+s322691239.929364
+e322691240.037924
+r1
+xCopyPNGFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/sobreTab.png
+xsobreTab.png
+lSLF07#2@79"CopyPNGFile "build/Debug-iphoneos/Save Money Now.app/sobreTab.png" sobreTab.png322691239#322691240#0(0"0(0#0#46"/Users/Pablo/Desktop/Pendrive/EFM/sobreTab.png8604249984#558"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Pablo/Desktop/Pendrive/EFM/sobreTab.png "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/sobreTab.png"0#
+
+CCopyPlistFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/SobresDetalleData.plist" SobresDetalleData.plist
+s322691239.845289
+e322691239.928123
+r1
+xCopyPlistFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/SobresDetalleData.plist
+xSobresDetalleData.plist
+lSLF07#2@28"Copy SobresDetalleData.plist322691239#322691239#0(0"0(0#0#57"/Users/Pablo/Desktop/Pendrive/EFM/SobresDetalleData.plist8604714080#383"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 SobresDetalleData.plist --outdir "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app"0#
+
+CCopyStringsFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/English.lproj/Localizable.strings" English.lproj/Localizable.strings
+s322691240.813144
+e322691240.861511
+r1
+xCopyStringsFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/English.lproj/Localizable.strings
+xEnglish.lproj/Localizable.strings
+lSLF07#2@38"Copy English.lproj/Localizable.strings322691240#322691240#0(0"0(0#0#67"/Users/Pablo/Desktop/Pendrive/EFM/English.lproj/Localizable.strings8603535264#480"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary English.lproj/Localizable.strings --outdir "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/English.lproj"0#
+
+CCopyStringsFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Spanish.lproj/Localizable.strings" Spanish.lproj/Localizable.strings
+s322691240.861655
+e322691240.915272
+r1
+xCopyStringsFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Spanish.lproj/Localizable.strings
+xSpanish.lproj/Localizable.strings
+lSLF07#2@38"Copy Spanish.lproj/Localizable.strings322691240#322691240#0(0"0(0#0#67"/Users/Pablo/Desktop/Pendrive/EFM/Spanish.lproj/Localizable.strings8604468096#480"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary Spanish.lproj/Localizable.strings --outdir "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Spanish.lproj"0#
+
+CCpResource "build/Debug-iphoneos/Save Money Now.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s322691238.212515
+e322691238.232938
+r1
+xCpResource
+xbuild/Debug-iphoneos/Save Money Now.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist322691238#322691238#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8101813437696656384#493"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app"0#
+
+CCpResource "build/Debug-iphoneos/Save Money Now.app/botonGuardar.jpg" botonGuardar.jpg
+s322691239.928269
+e322691239.937078
+r1
+xCpResource
+xbuild/Debug-iphoneos/Save Money Now.app/botonGuardar.jpg
+xbotonGuardar.jpg
+lSLF07#2@21"Copy botonGuardar.jpg322691239#322691239#0(0"0(0#0#50"/Users/Pablo/Desktop/Pendrive/EFM/botonGuardar.jpg8604485376#454"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Pablo/Desktop/Pendrive/EFM/botonGuardar.jpg "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app"0#
+
+CCreateUniversalBinary "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Save Money Now" normal "armv6 armv7"
+s322691243.798845
+e322691243.812056
+r1
+xCreateUniversalBinary
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Save Money Now
+xnormal
+xarmv6 armv7
+lSLF07#2@99"CreateUniversalBinary "build/Debug-iphoneos/Save Money Now.app/Save Money Now" normal "armv6 armv7"322691243#322691243#0(0"0(0#0#45"/Users/Pablo/Desktop/Pendrive/EFM/armv6 armv78604535520#560"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/Save Money Now" "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/Save Money Now" -output "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Save Money Now"0#
+
+CGenerateDSYMFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app.dSYM" "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Save Money Now"
+s322691243.812204
+e322691243.902420
+r1
+xGenerateDSYMFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app.dSYM
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Save Money Now
+lSLF07#2@120"GenerateDSYMFile "build/Debug-iphoneos/Save Money Now.app.dSYM" "build/Debug-iphoneos/Save Money Now.app/Save Money Now"322691243#322691243#0(0"0(0#0#88"/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Save Money Now8604062592#372"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Save Money Now" -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app.dSYM"0#
+
+CLd "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/Save Money Now" normal armv6
+s322691243.066307
+e322691243.231659
+r1
+xLd
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/Save Money Now
+xnormal
+xarmv6
+lSLF07#2@137"Link /Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/Save Money Now322691243#322691243#0(0"0(0#0#0"8604040096#880"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos -filelist "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/Save Money Now.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv6/Save Money Now"0#
+
+CLd "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/Save Money Now" normal armv7
+s322691243.730539
+e322691243.798695
+r1
+xLd
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/Save Money Now
+xnormal
+xarmv7
+lSLF07#2@137"Link /Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/Save Money Now322691243#322691243#0(0"0(0#0#0"8604864480#880"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos -filelist "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/Save Money Now.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Objects-normal/armv7/Save Money Now"0#
+
+CProcessInfoPlistFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Info.plist" "Save Money Now-Info.plist"
+s322691238.220612
+e322691238.225219
+r1
+xProcessInfoPlistFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Info.plist
+xSave Money Now-Info.plist
+lSLF07#2@33"Process Save Money Now-Info.plist322691238#322691238#0(0"0(0#0#59"/Users/Pablo/Desktop/Pendrive/EFM/Save Money Now-Info.plist8604587520#578"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "Save Money Now-Info.plist" -genpkginfo "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/ResourceRules.plist" -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/Info.plist"0#
+
+CProcessPCH "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-adkwgpylsrizbafgivqmpuebdbfl/Save Money Now_Prefix.pch.gch" "Save Money Now_Prefix.pch" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322691241.373700
+e322691242.317586
+r1
+xProcessPCH
+x/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-adkwgpylsrizbafgivqmpuebdbfl/Save Money Now_Prefix.pch.gch
+xSave Money Now_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile Save Money Now_Prefix.pch322691241#322691242#0(0"0(0#0#59"/Users/Pablo/Desktop/Pendrive/EFM/Save Money Now_Prefix.pch8605076032#1721"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources/armv6" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources" -c "/Users/Pablo/Desktop/Pendrive/EFM/Save Money Now_Prefix.pch" -o "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-adkwgpylsrizbafgivqmpuebdbfl/Save Money Now_Prefix.pch.gch"0#
+
+CProcessPCH "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-gegkdaluetkxtqhexvroyrydwyrh/Save Money Now_Prefix.pch.gch" "Save Money Now_Prefix.pch" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322691241.375160
+e322691242.370816
+r1
+xProcessPCH
+x/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-gegkdaluetkxtqhexvroyrydwyrh/Save Money Now_Prefix.pch.gch
+xSave Money Now_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile Save Money Now_Prefix.pch322691241#322691242#0(0"0(0#0#59"/Users/Pablo/Desktop/Pendrive/EFM/Save Money Now_Prefix.pch8604913152#1721"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources/armv7" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/DerivedSources" -c "/Users/Pablo/Desktop/Pendrive/EFM/Save Money Now_Prefix.pch" -o "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Money Now_Prefix-gegkdaluetkxtqhexvroyrydwyrh/Save Money Now_Prefix.pch.gch"0#
+
+CProcessProductPackaging "/Users/Pablo/Library/MobileDevice/Provisioning Profiles/2FE192B3-8D6A-4E63-8A95-3B7EDFCBBFBC.mobileprovision" "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/embedded.mobileprovision"
+s322691243.902568
+e322691243.904915
+r1
+xProcessProductPackaging
+x/Users/Pablo/Library/MobileDevice/Provisioning Profiles/2FE192B3-8D6A-4E63-8A95-3B7EDFCBBFBC.mobileprovision
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/embedded.mobileprovision
+lSLF07#2@201"ProcessProductPackaging "/Users/Pablo/Library/MobileDevice/Provisioning Profiles/2FE192B3-8D6A-4E63-8A95-3B7EDFCBBFBC.mobileprovision" "build/Debug-iphoneos/Save Money Now.app/embedded.mobileprovision"322691243#322691243#0(0"0(0#0#98"/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/embedded.mobileprovision8603296128#422"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Pablo/Library/MobileDevice/Provisioning Profiles/2FE192B3-8D6A-4E63-8A95-3B7EDFCBBFBC.mobileprovision" -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now.xcent"
+s322691243.913922
+e322691243.916517
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now.xcent
+lSLF07#2@198"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now.xcent"322691243#322691243#0(0"0(0#0#117"/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now.xcent8602850528#445"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Money Now.build/Debug-iphoneos/Save Money Now.build/Save Money Now.xcent"0#
+
+CTouch "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app"
+s322691243.905019
+e322691243.913774
+r1
+xTouch
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app
+lSLF07#2@79"Touch /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app322691243#322691243#0(0"0(0#0#0"8601999808#263"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphoneos/Save Money Now.app"0#
+

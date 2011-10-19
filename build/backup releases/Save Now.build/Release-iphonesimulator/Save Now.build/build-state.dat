@@ -1,0 +1,537 @@
+TSave Now
+v7
+r0
+t322692822.260572
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Info.plist" "Save Now-Info.plist"
+cCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib
+cCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib
+cCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib
+cCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib
+cCopyPlistFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/SobresDetalleData.plist" SobresDetalleData.plist
+cCpResource "build/Release-iphonesimulator/Save Now.app/botonGuardar.jpg" botonGuardar.jpg
+cCpResource "build/Release-iphonesimulator/Save Now.app/sobreTab.png" sobreTab.png
+cCpResource "build/Release-iphonesimulator/Save Now.app/preferenciasTab.png" preferenciasTab.png
+cCpResource "build/Release-iphonesimulator/Save Now.app/sobreDetalle.png" sobreDetalle.png
+cCpResource "build/Release-iphonesimulator/Save Now.app/iconoApp.png" iconoApp.png
+cCopyStringsFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/English.lproj/Localizable.strings" English.lproj/Localizable.strings
+cCopyStringsFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Spanish.lproj/Localizable.strings" Spanish.lproj/Localizable.strings
+cCpResource "build/Release-iphonesimulator/Save Now.app/fondopref.png" fondopref.png
+cProcessPCH "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-aukgqpgyagcicjannjxjmpfmynjm/Save Now_Prefix.pch.gch" "Save Now_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/main.o" /Users/Pablo/Desktop/Pendrive/EFM/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/EFMAppDelegate.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/SobresController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/PreferenciasController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/SobreDetalleController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Save Now" normal i386
+cGenerateDSYMFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app.dSYM" "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Save Now"
+cTouch "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m
+c000000004D79218F0000000000001FA5
+t1299784079
+s8101
+i"SobresController.h"
+i"SobreDetalleController.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib
+c000000004D7C2A230000000000067024
+t1299982883
+s421924
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m
+c000000004D7D3BFB0000000000003B92
+t1300052987
+s15250
+i"PreferenciasController.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib
+c000000004D7CCE0600000000000104D3
+t1300024838
+s66771
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.h
+c000000004D7CCDF00000000000000A39
+t1300024816
+s2617
+i<UIKit/UIKit.h>
+i"EFMAppDelegate.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m
+c000000004D7D3FEA00000000000048AA
+t1300053994
+s18602
+i"SobreDetalleController.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib
+c000000004D0519300000000000005266
+t1292179760
+s21094
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.h
+c000000004D6C0CA900000000000002A2
+t1298926761
+s674
+i<UIKit/UIKit.h>
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m
+c000000004D702EC70000000000000F83
+t1299197639
+s3971
+i"EFMAppDelegate.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/SobresController.h
+c000000004D683822000000000000027E
+t1298675746
+s638
+i<UIKit/UIKit.h>
+i"SobreDetalleController.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/English.lproj/Localizable.strings
+c000000004D7CCBB100000000000008EE
+t1300024241
+s2286
+
+N/Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib
+c000000004D77E34200000000000097E6
+t1299702594
+s38886
+
+N/Users/Pablo/Desktop/Pendrive/EFM/PreferenciasController.h
+c000000004D7C2A2F0000000000000812
+t1299982895
+s2066
+i<UIKit/UIKit.h>
+i"EFMAppDelegate.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Save Now_Prefix.pch
+c000000004CD2E11A00000000000000AF
+t1288888602
+s175
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Pablo/Desktop/Pendrive/EFM/SobreDetalleController.h
+c000000004D7CCDF00000000000000A39
+t1300024816
+s2617
+i<UIKit/UIKit.h>
+i"EFMAppDelegate.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/SobresDetalleData.plist
+c000000004D7CD1FD0000000000000ACA
+t1300025853
+s2762
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Spanish.lproj/Localizable.strings
+c000000004D7C28D4000000000000094F
+t1299982548
+s2383
+
+N/Users/Pablo/Desktop/Pendrive/EFM/botonGuardar.jpg
+c000000004CF2F5F60000000000003054
+t1290991094
+s12372
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app
+t1301000022
+s612
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app.dSYM
+t1300998932
+s102
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/English.lproj/Localizable.strings
+t1300998929
+s2025
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Info.plist
+t1301000022
+s624
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/MainWindow.nib
+t1300998928
+s1976
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/PkgInfo
+t1301000022
+s8
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Preferencias.nib
+t1300998928
+s6107
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Save Now
+t1300998932
+s79444
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/SobreDetalle.nib
+t1300998930
+s6061
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Sobres.nib
+t1300998929
+s1223
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/SobresDetalleData.plist
+t1300998929
+s539
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Spanish.lproj/Localizable.strings
+t1300998929
+s2411
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/botonGuardar.jpg
+t1300998929
+s12372
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/fondopref.png
+t1300998929
+s3698
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/iconoApp.png
+t1300998929
+s12135
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/preferenciasTab.png
+t1300998929
+s3216
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/sobreDetalle.png
+t1300998929
+s69056
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/sobreTab.png
+t1300998929
+s3176
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/EFMAppDelegate.o
+t1300998931
+s59260
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/PreferenciasController.o
+t1300998932
+s99068
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/Save Now.LinkFileList
+c000000004D8BAB0F0000000000000297
+t1300998927
+s663
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/SobreDetalleController.o
+t1300998932
+s111992
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/SobresController.o
+t1300998931
+s54480
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/main.o
+t1300998931
+s6280
+
+N/Users/Pablo/Desktop/Pendrive/EFM/fondopref.png
+c000000004D7BD94A0000000000000E72
+t1299962186
+s3698
+
+N/Users/Pablo/Desktop/Pendrive/EFM/iconoApp.png
+c000000004D7A283E0000000000002F67
+t1299851326
+s12135
+
+N/Users/Pablo/Desktop/Pendrive/EFM/main.m
+c000000004CD2E11A000000000000015A
+t1288888602
+s346
+i<UIKit/UIKit.h>
+
+N/Users/Pablo/Desktop/Pendrive/EFM/preferenciasTab.png
+c000000004D77E2600000000000000C90
+t1299702368
+s3216
+
+N/Users/Pablo/Desktop/Pendrive/EFM/sobreDetalle.png
+c000000004D791F810000000000010DC0
+t1299783553
+s69056
+
+N/Users/Pablo/Desktop/Pendrive/EFM/sobreTab.png
+c000000004D75A0E20000000000000C68
+t1299554530
+s3176
+
+N/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-aukgqpgyagcicjannjxjmpfmynjm/Save Now_Prefix.pch.gch
+t1300998931
+s15113424
+
+NSave Now-Info.plist
+c000000004D8BAF560000000000000377
+t1301000022
+s887
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322692822#322692822#0(0"0(0#1#0"8601960800#0"0#
+
+CCompileC "build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/EFMAppDelegate.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322691731.307533
+e322691731.543399
+r1
+xCompileC
+xbuild/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/EFMAppDelegate.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m322691731#322691731#0(0"0(0#0#58"/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m8610442176#1982"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator -I/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/DerivedSources/i386" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-aukgqpgyagcicjannjxjmpfmynjm/Save Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/EFMAppDelegate.o"0#
+
+CCompileC "build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/PreferenciasController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322691731.543551
+e322691732.430243
+r1
+xCompileC
+xbuild/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/PreferenciasController.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m: In function '-[PreferenciasController botonActualizarPresupuesto:]':
+o/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m:208: warning: incompatible Objective-C types 'struct UIView *', expected 'struct UITabBar *' when passing argument 1 of 'showFromTabBar:' from distinct Objective-C type
+lSLF07#2@77"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m322691731#322691732#0(379"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m: In function '-[PreferenciasController botonActualizarPresupuesto:]':/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m:208: warning: incompatible Objective-C types 'struct UIView *', expected 'struct UITabBar *' when passing argument 1 of 'showFromTabBar:' from distinct Objective-C type1(22@154"Incompatible Objective-C types 'struct UIView *', expected 'struct UITabBar *' when passing argument 1 of 'showFromTabBar:' from distinct Objective-C type322691731#140#239#0(6@69"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m321745787#208#0#208#0#0"0(0#0#69"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m8604207648#2001"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator -I/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/DerivedSources/i386" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-aukgqpgyagcicjannjxjmpfmynjm/Save Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/PreferenciasController.o"0#
+
+CCompileC "build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/SobreDetalleController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322691731.751473
+e322691732.724178
+r1
+xCompileC
+xbuild/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/SobreDetalleController.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m322691731#322691732#0(0"0(0#0#69"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m8610231968#2001"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator -I/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/DerivedSources/i386" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-aukgqpgyagcicjannjxjmpfmynjm/Save Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/SobreDetalleController.o"0#
+
+CCompileC "build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/SobresController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322691731.405356
+e322691731.751325
+r1
+xCompileC
+xbuild/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/SobresController.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m322691731#322691731#0(0"0(0#0#71"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m8608592736#1997"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator -I/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/DerivedSources/i386" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-aukgqpgyagcicjannjxjmpfmynjm/Save Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/SobresController.o"0#
+
+CCompileC "build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/main.o" /Users/Pablo/Desktop/Pendrive/EFM/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322691731.305582
+e322691731.405205
+r1
+xCompileC
+xbuild/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/main.o
+x/Users/Pablo/Desktop/Pendrive/EFM/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/Pablo/Desktop/Pendrive/EFM/main.m322691731#322691731#0(0"0(0#0#40"/Users/Pablo/Desktop/Pendrive/EFM/main.m8610750624#1954"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator -I/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/DerivedSources/i386" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-aukgqpgyagcicjannjxjmpfmynjm/Save Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/main.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib
+s322691727.947643
+e322691729.292007
+r1
+xCompileXIB
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/Pablo/Desktop/Pendrive/EFM/Preferencias.xib:75: warning: Tint color is only supported with bar style segmented controls.
+lSLF07#2@38"CompileXIB Classes/../Preferencias.xib322691727#322691729#0(169"/* com.apple.ibtool.document.warnings *//Users/Pablo/Desktop/Pendrive/EFM/Preferencias.xib:75: warning: Tint color is only supported with bar style segmented controls.1(22@63"Tint color is only supported with bar style segmented controls.322691729#18446744073709551615#0#0(6@50"/Users/Pablo/Desktop/Pendrive/EFM/Preferencias.xib321675683#75#0#75#0#0"0(0#0#61"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib8610611104#575"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Preferencias.nib" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib
+s322691729.292170
+e322691730.376802
+r1
+xCompileXIB
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib
+lSLF07#2@38"CompileXIB Classes/../SobreDetalle.xib322691729#322691730#0(0"0(0#0#61"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib8605302784#575"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/SobreDetalle.nib" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib
+s322691728.637704
+e322691729.505896
+r1
+xCompileXIB
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib
+lSLF07#2@32"CompileXIB Classes/../Sobres.xib322691728#322691729#0(0"0(0#0#55"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib8610318144#563"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Sobres.nib" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib
+s322691727.946644
+e322691728.637578
+r1
+xCompileXIB
+x/Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib322691727#322691728#0(0"0(0#0#48"/Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib8610717696#560"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/MainWindow.nib" /Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCopyPlistFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/SobresDetalleData.plist" SobresDetalleData.plist
+s322691729.506144
+e322691729.540846
+r1
+xCopyPlistFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/SobresDetalleData.plist
+xSobresDetalleData.plist
+lSLF07#2@28"Copy SobresDetalleData.plist322691729#322691729#0(0"0(0#0#57"/Users/Pablo/Desktop/Pendrive/EFM/SobresDetalleData.plist8608682784#393"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 SobresDetalleData.plist --outdir "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app"0#
+
+CCopyStringsFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/English.lproj/Localizable.strings" English.lproj/Localizable.strings
+s322691729.549959
+e322691729.615825
+r1
+xCopyStringsFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/English.lproj/Localizable.strings
+xEnglish.lproj/Localizable.strings
+lSLF07#2@38"Copy English.lproj/Localizable.strings322691729#322691729#0(0"0(0#0#67"/Users/Pablo/Desktop/Pendrive/EFM/English.lproj/Localizable.strings8610558592#490"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary English.lproj/Localizable.strings --outdir "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/English.lproj"0#
+
+CCopyStringsFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Spanish.lproj/Localizable.strings" Spanish.lproj/Localizable.strings
+s322691729.615968
+e322691729.673478
+r1
+xCopyStringsFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Spanish.lproj/Localizable.strings
+xSpanish.lproj/Localizable.strings
+lSLF07#2@38"Copy Spanish.lproj/Localizable.strings322691729#322691729#0(0"0(0#0#67"/Users/Pablo/Desktop/Pendrive/EFM/Spanish.lproj/Localizable.strings8610429888#490"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary Spanish.lproj/Localizable.strings --outdir "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Spanish.lproj"0#
+
+CCpResource "build/Release-iphonesimulator/Save Now.app/botonGuardar.jpg" botonGuardar.jpg
+s322691729.540980
+e322691729.555617
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Save Now.app/botonGuardar.jpg
+xbotonGuardar.jpg
+lSLF07#2@21"Copy botonGuardar.jpg322691729#322691729#0(0"0(0#0#50"/Users/Pablo/Desktop/Pendrive/EFM/botonGuardar.jpg8611564320#485"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/Pablo/Desktop/Pendrive/EFM/botonGuardar.jpg "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app"0#
+
+CCpResource "build/Release-iphonesimulator/Save Now.app/fondopref.png" fondopref.png
+s322691729.673615
+e322691729.681670
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Save Now.app/fondopref.png
+xfondopref.png
+lSLF07#2@18"Copy fondopref.png322691729#322691729#0(0"0(0#0#47"/Users/Pablo/Desktop/Pendrive/EFM/fondopref.png8608635616#482"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/Pablo/Desktop/Pendrive/EFM/fondopref.png "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app"0#
+
+CCpResource "build/Release-iphonesimulator/Save Now.app/iconoApp.png" iconoApp.png
+s322691729.547426
+e322691729.570451
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Save Now.app/iconoApp.png
+xiconoApp.png
+lSLF07#2@17"Copy iconoApp.png322691729#322691729#0(0"0(0#0#46"/Users/Pablo/Desktop/Pendrive/EFM/iconoApp.png8610721568#481"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/Pablo/Desktop/Pendrive/EFM/iconoApp.png "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app"0#
+
+CCpResource "build/Release-iphonesimulator/Save Now.app/preferenciasTab.png" preferenciasTab.png
+s322691729.543198
+e322691729.563516
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Save Now.app/preferenciasTab.png
+xpreferenciasTab.png
+lSLF07#2@24"Copy preferenciasTab.png322691729#322691729#0(0"0(0#0#53"/Users/Pablo/Desktop/Pendrive/EFM/preferenciasTab.png8611044128#488"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/Pablo/Desktop/Pendrive/EFM/preferenciasTab.png "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app"0#
+
+CCpResource "build/Release-iphonesimulator/Save Now.app/sobreDetalle.png" sobreDetalle.png
+s322691729.545277
+e322691729.561444
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Save Now.app/sobreDetalle.png
+xsobreDetalle.png
+lSLF07#2@21"Copy sobreDetalle.png322691729#322691729#0(0"0(0#0#50"/Users/Pablo/Desktop/Pendrive/EFM/sobreDetalle.png8610963712#485"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/Pablo/Desktop/Pendrive/EFM/sobreDetalle.png "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app"0#
+
+CCpResource "build/Release-iphonesimulator/Save Now.app/sobreTab.png" sobreTab.png
+s322691729.542091
+e322691729.570236
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Save Now.app/sobreTab.png
+xsobreTab.png
+lSLF07#2@17"Copy sobreTab.png322691729#322691729#0(0"0(0#0#46"/Users/Pablo/Desktop/Pendrive/EFM/sobreTab.png8611328704#481"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/Pablo/Desktop/Pendrive/EFM/sobreTab.png "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app"0#
+
+CGenerateDSYMFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app.dSYM" "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Save Now"
+s322691732.774651
+e322691732.812210
+r1
+xGenerateDSYMFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app.dSYM
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Save Now
+lSLF07#2@120"GenerateDSYMFile "build/Release-iphonesimulator/Save Now.app.dSYM" "build/Release-iphonesimulator/Save Now.app/Save Now"322691732#322691732#0(0"0(0#0#85"/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Save Now8610418688#379"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Save Now" -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app.dSYM"0#
+
+CLd "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Save Now" normal i386
+s322691732.724317
+e322691732.774496
+r1
+xLd
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Save Now
+xnormal
+xi386
+lSLF07#2@90"Link /Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Save Now322691732#322691732#0(0"0(0#0#0"8610666240#892"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator -F/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator -filelist "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Objects-normal/i386/Save Now.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Save Now"0#
+
+CProcessInfoPlistFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Info.plist" "Save Now-Info.plist"
+s322692822.235707
+e322692822.252666
+r1
+xProcessInfoPlistFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Info.plist
+xSave Now-Info.plist
+lSLF07#2@27"Process Save Now-Info.plist322692822#322692822#0(0"0(0#0#53"/Users/Pablo/Desktop/Pendrive/EFM/Save Now-Info.plist8604297024#477"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "Save Now-Info.plist" -genpkginfo "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app/Info.plist"0#
+
+CProcessPCH "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-aukgqpgyagcicjannjxjmpfmynjm/Save Now_Prefix.pch.gch" "Save Now_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+s322691730.377004
+e322691731.305295
+r1
+xProcessPCH
+x/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-aukgqpgyagcicjannjxjmpfmynjm/Save Now_Prefix.pch.gch
+xSave Now_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Save Now_Prefix.pch322691730#322691731#0(0"0(0#0#53"/Users/Pablo/Desktop/Pendrive/EFM/Save Now_Prefix.pch8605370400#1848"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/Save Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator -I/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/DerivedSources/i386" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Release-iphonesimulator/Save Now.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/Pablo/Desktop/Pendrive/EFM/Save Now_Prefix.pch" -o "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-aukgqpgyagcicjannjxjmpfmynjm/Save Now_Prefix.pch.gch"0#
+
+CTouch "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app"
+s322692822.255120
+e322692822.260480
+r1
+xTouch
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app
+lSLF07#2@82"Touch /Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app322692822#322692822#0(0"0(0#0#0"8606979968#273"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Pablo/Desktop/Pendrive/EFM/build/Release-iphonesimulator/Save Now.app"0#
+

@@ -1,0 +1,775 @@
+TSave Now
+v7
+r0
+t322745998.565947
+cCheck dependencies
+cCpResource "build/Distribution-iphoneos/Save Now.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Info.plist" "Save Now-Info.plist"
+cCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib
+cCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib
+cCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib
+cCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib
+cCopyPlistFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/SobresDetalleData.plist" SobresDetalleData.plist
+cCpResource "build/Distribution-iphoneos/Save Now.app/botonGuardar.jpg" botonGuardar.jpg
+cCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/sobreTab.png" sobreTab.png
+cCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/preferenciasTab.png" preferenciasTab.png
+cCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/sobreDetalle.png" sobreDetalle.png
+cCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Icon@2x.png" Icon@2x.png
+cCopyStringsFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/English.lproj/Localizable.strings" English.lproj/Localizable.strings
+cCopyStringsFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Spanish.lproj/Localizable.strings" Spanish.lproj/Localizable.strings
+cCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/fondopref.png" fondopref.png
+cCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Icon.png" Icon.png
+cProcessPCH "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-cnftqstgtwfzmbfousdapctyhoga/Save Now_Prefix.pch.gch" "Save Now_Prefix.pch" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-hbdcyvhjrqamwxaykuogurdfpaws/Save Now_Prefix.pch.gch" "Save Now_Prefix.pch" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/main.o" /Users/Pablo/Desktop/Pendrive/EFM/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/EFMAppDelegate.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/SobresController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/PreferenciasController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/SobreDetalleController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/main.o" /Users/Pablo/Desktop/Pendrive/EFM/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/EFMAppDelegate.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/SobresController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/Save Now" normal armv6
+cCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/PreferenciasController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/SobreDetalleController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/Save Now" normal armv7
+cCreateUniversalBinary "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Save Now" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app.dSYM" "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Save Now"
+cProcessProductPackaging "/Users/Pablo/Library/MobileDevice/Provisioning Profiles/444E92A9-C856-40A8-86DB-DE9D5B2F8D1F.mobileprovision" "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/embedded.mobileprovision"
+cTouch "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now.xcent"
+cCodeSign "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app"
+cValidate "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m
+c000000004D79218F0000000000001FA5
+t1299784079
+s8101
+i"SobresController.h"
+i"SobreDetalleController.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib
+c000000004D8C6D8E0000000000066F05
+t1301048718
+s421637
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m
+c000000004D8C71A70000000000003BA1
+t1301049767
+s15265
+i"PreferenciasController.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib
+c000000004D7CCE0600000000000104D3
+t1300024838
+s66771
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.h
+c000000004D7CCDF00000000000000A39
+t1300024816
+s2617
+i<UIKit/UIKit.h>
+i"EFMAppDelegate.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m
+c000000004D8C719A00000000000048AA
+t1301049754
+s18602
+i"SobreDetalleController.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib
+c000000004D0519300000000000005266
+t1292179760
+s21094
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.h
+c000000004D6C0CA900000000000002A2
+t1298926761
+s674
+i<UIKit/UIKit.h>
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m
+c000000004D702EC70000000000000F83
+t1299197639
+s3971
+i"EFMAppDelegate.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/SobresController.h
+c000000004D683822000000000000027E
+t1298675746
+s638
+i<UIKit/UIKit.h>
+i"SobreDetalleController.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/English.lproj/Localizable.strings
+c000000004D7CCBB100000000000008EE
+t1300024241
+s2286
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Icon.png
+c000000004D8C7BFF00000000000017EF
+t1301052415
+s6127
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Icon@2x.png
+c000000004D7A283E0000000000002F67
+t1299851326
+s12135
+
+N/Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib
+c000000004D77E34200000000000097E6
+t1299702594
+s38886
+
+N/Users/Pablo/Desktop/Pendrive/EFM/PreferenciasController.h
+c000000004D7C2A2F0000000000000812
+t1299982895
+s2066
+i<UIKit/UIKit.h>
+i"EFMAppDelegate.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Save Now_Prefix.pch
+c000000004CD2E11A00000000000000AF
+t1288888602
+s175
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Pablo/Desktop/Pendrive/EFM/SobreDetalleController.h
+c000000004D7CCDF00000000000000A39
+t1300024816
+s2617
+i<UIKit/UIKit.h>
+i"EFMAppDelegate.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/SobresDetalleData.plist
+c000000004D7CD1FD0000000000000ACA
+t1300025853
+s2762
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Spanish.lproj/Localizable.strings
+c000000004D7C28D4000000000000094F
+t1299982548
+s2383
+
+N/Users/Pablo/Desktop/Pendrive/EFM/botonGuardar.jpg
+c000000004CF2F5F60000000000003054
+t1290991094
+s12372
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app
+t1301053198
+s782
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app.dSYM
+t1301053197
+s102
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/English.lproj/Localizable.strings
+t1301053193
+s2025
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Icon.png
+t1301053193
+s6501
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Icon@2x.png
+t1301053193
+s12824
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Info.plist
+t1301053190
+s834
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/MainWindow.nib
+t1301053191
+s1976
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/PkgInfo
+t1301053190
+s8
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Preferencias.nib
+t1301053191
+s6111
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/ResourceRules.plist
+t1301053190
+s485
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Save Now
+t1301053197
+s163552
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/SobreDetalle.nib
+t1301053192
+s6069
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Sobres.nib
+t1301053192
+s1223
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/SobresDetalleData.plist
+t1301053192
+s539
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Spanish.lproj/Localizable.strings
+t1301053193
+s2411
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/botonGuardar.jpg
+t1301053192
+s12372
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/embedded.mobileprovision
+t1301053198
+s7053
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/fondopref.png
+t1301053193
+s3866
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/preferenciasTab.png
+t1301053192
+s3213
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/sobreDetalle.png
+t1301053193
+s75825
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/sobreTab.png
+t1301053192
+s3146
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/EFMAppDelegate.o
+t1301053194
+s58336
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/PreferenciasController.o
+t1301053195
+s95608
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/Save Now
+t1301053196
+s72088
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/Save Now.LinkFileList
+c000000004D8C7F060000000000000292
+t1301053190
+s658
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/SobreDetalleController.o
+t1301053196
+s108592
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/SobresController.o
+t1301053195
+s54328
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/main.o
+t1301053194
+s6500
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/EFMAppDelegate.o
+t1301053196
+s58340
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/PreferenciasController.o
+t1301053197
+s94868
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/Save Now
+t1301053197
+s71380
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/Save Now.LinkFileList
+c000000004D8C7F060000000000000292
+t1301053190
+s658
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/SobreDetalleController.o
+t1301053197
+s107892
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/SobresController.o
+t1301053196
+s53628
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/main.o
+t1301053196
+s6480
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now.xcent
+t1301053198
+s413
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/Pablo/Desktop/Pendrive/EFM/fondopref.png
+c000000004D7BD94A0000000000000E72
+t1299962186
+s3698
+
+N/Users/Pablo/Desktop/Pendrive/EFM/main.m
+c000000004CD2E11A000000000000015A
+t1288888602
+s346
+i<UIKit/UIKit.h>
+
+N/Users/Pablo/Desktop/Pendrive/EFM/preferenciasTab.png
+c000000004D77E2600000000000000C90
+t1299702368
+s3216
+
+N/Users/Pablo/Desktop/Pendrive/EFM/sobreDetalle.png
+c000000004D791F810000000000010DC0
+t1299783553
+s69056
+
+N/Users/Pablo/Desktop/Pendrive/EFM/sobreTab.png
+c000000004D75A0E20000000000000C68
+t1299554530
+s3176
+
+N/Users/Pablo/Library/MobileDevice/Provisioning Profiles/444E92A9-C856-40A8-86DB-DE9D5B2F8D1F.mobileprovision
+c000000004D8C6BB80000000000001B8D
+t1301048248
+s7053
+
+N/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-cnftqstgtwfzmbfousdapctyhoga/Save Now_Prefix.pch.gch
+t1301053194
+s9783000
+
+N/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-hbdcyvhjrqamwxaykuogurdfpaws/Save Now_Prefix.pch.gch
+t1301053194
+s10249944
+
+NSave Now-Info.plist
+c000000004D8C7CDF00000000000003DB
+t1301052639
+s987
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322745990#322745990#0(0"0(0#1#0"8630215520#0"0#
+
+CCodeSign "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app"
+s322745998.030798
+e322745998.375080
+r1
+xCodeSign
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app
+lSLF07#2@51"CodeSign "build/Distribution-iphoneos/Save Now.app"322745998#322745998#0(0"0(0#0#74"/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app8623918144#660"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: Pablo Sierra Gutierrez" "--resource-rules=/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/ResourceRules.plist" --entitlements "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now.xcent" "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app"0#
+
+CCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/EFMAppDelegate.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322745994.675303
+e322745994.943270
+r1
+xCompileC
+xbuild/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/EFMAppDelegate.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m322745994#322745994#0(0"0(0#0#58"/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m8629482240#1820"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources/armv6" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-cnftqstgtwfzmbfousdapctyhoga/Save Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/EFMAppDelegate.o"0#
+
+CCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/PreferenciasController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322745994.943456
+e322745995.982070
+r1
+xCompileC
+xbuild/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/PreferenciasController.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m322745994#322745995#0(0"0(0#0#69"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m8624765760#1839"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources/armv6" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-cnftqstgtwfzmbfousdapctyhoga/Save Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/PreferenciasController.o"0#
+
+CCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/SobreDetalleController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322745995.141170
+e322745996.378404
+r1
+xCompileC
+xbuild/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/SobreDetalleController.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m322745995#322745996#0(0"0(0#0#69"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m8630016896#1839"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources/armv6" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-cnftqstgtwfzmbfousdapctyhoga/Save Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/SobreDetalleController.o"0#
+
+CCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/SobresController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322745994.768900
+e322745995.140884
+r1
+xCompileC
+xbuild/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/SobresController.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m322745994#322745995#0(0"0(0#0#71"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m8628889920#1835"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources/armv6" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-cnftqstgtwfzmbfousdapctyhoga/Save Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/SobresController.o"0#
+
+CCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/main.o" /Users/Pablo/Desktop/Pendrive/EFM/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322745994.673738
+e322745994.768746
+r1
+xCompileC
+xbuild/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/main.o
+x/Users/Pablo/Desktop/Pendrive/EFM/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/Pablo/Desktop/Pendrive/EFM/main.m322745994#322745994#0(0"0(0#0#40"/Users/Pablo/Desktop/Pendrive/EFM/main.m8630047232#1792"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources/armv6" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-cnftqstgtwfzmbfousdapctyhoga/Save Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/main.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/main.o"0#
+
+CCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/EFMAppDelegate.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322745996.078835
+e322745996.305192
+r1
+xCompileC
+xbuild/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/EFMAppDelegate.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m322745996#322745996#0(0"0(0#0#58"/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m8629373184#1820"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources/armv7" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-hbdcyvhjrqamwxaykuogurdfpaws/Save Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/EFMAppDelegate.o"0#
+
+CCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/PreferenciasController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322745996.454841
+e322745997.473727
+r1
+xCompileC
+xbuild/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/PreferenciasController.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m322745996#322745997#0(0"0(0#0#69"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m8629428992#1839"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources/armv7" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-hbdcyvhjrqamwxaykuogurdfpaws/Save Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/PreferenciasController.o"0#
+
+CCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/SobreDetalleController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322745996.678547
+e322745997.873396
+r1
+xCompileC
+xbuild/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/SobreDetalleController.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m322745996#322745997#0(0"0(0#0#69"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m8628565344#1839"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources/armv7" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-hbdcyvhjrqamwxaykuogurdfpaws/Save Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/SobreDetalleController.o"0#
+
+CCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/SobresController.o" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322745996.305425
+e322745996.678009
+r1
+xCompileC
+xbuild/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/SobresController.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m322745996#322745996#0(0"0(0#0#71"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m8626372256#1835"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources/armv7" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-hbdcyvhjrqamwxaykuogurdfpaws/Save Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/SobresController.o"0#
+
+CCompileC "build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/main.o" /Users/Pablo/Desktop/Pendrive/EFM/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322745995.982221
+e322745996.078682
+r1
+xCompileC
+xbuild/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/main.o
+x/Users/Pablo/Desktop/Pendrive/EFM/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/Pablo/Desktop/Pendrive/EFM/main.m322745995#322745996#0(0"0(0#0#40"/Users/Pablo/Desktop/Pendrive/EFM/main.m8629951680#1792"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources/armv7" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-hbdcyvhjrqamwxaykuogurdfpaws/Save Now_Prefix.pch" -c /Users/Pablo/Desktop/Pendrive/EFM/main.m -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib
+s322745990.344250
+e322745991.871961
+r1
+xCompileXIB
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib
+lSLF07#2@38"CompileXIB Classes/../Preferencias.xib322745990#322745991#0(0"0(0#0#61"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib8590246528#552"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Preferencias.nib" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib
+s322745991.872188
+e322745992.993265
+r1
+xCompileXIB
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib
+lSLF07#2@38"CompileXIB Classes/../SobreDetalle.xib322745991#322745992#0(0"0(0#0#61"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib8626101088#552"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/SobreDetalle.nib" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib
+s322745991.203356
+e322745992.191438
+r1
+xCompileXIB
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib
+lSLF07#2@32"CompileXIB Classes/../Sobres.xib322745991#322745992#0(0"0(0#0#55"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib8631584832#540"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Sobres.nib" /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib
+s322745990.343053
+e322745991.203230
+r1
+xCompileXIB
+x/Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib322745990#322745991#0(0"0(0#0#48"/Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib8626364928#537"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/MainWindow.nib" /Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Icon.png" Icon.png
+s322745993.247249
+e322745993.303801
+r1
+xCopyPNGFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Icon.png
+xIcon.png
+lSLF07#2@72"CopyPNGFile "build/Distribution-iphoneos/Save Now.app/Icon.png" Icon.png322745993#322745993#0(0"0(0#0#42"/Users/Pablo/Desktop/Pendrive/EFM/Icon.png8629433280#551"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Pablo/Desktop/Pendrive/EFM/Icon.png "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Icon.png"0#
+
+CCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Icon@2x.png" Icon@2x.png
+s322745992.993414
+e322745993.090447
+r1
+xCopyPNGFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Icon@2x.png
+xIcon@2x.png
+lSLF07#2@78"CopyPNGFile "build/Distribution-iphoneos/Save Now.app/Icon@2x.png" Icon@2x.png322745992#322745993#0(0"0(0#0#45"/Users/Pablo/Desktop/Pendrive/EFM/Icon@2x.png8631570016#557"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Pablo/Desktop/Pendrive/EFM/Icon@2x.png "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Icon@2x.png"0#
+
+CCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/fondopref.png" fondopref.png
+s322745993.186294
+e322745993.247109
+r1
+xCopyPNGFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/fondopref.png
+xfondopref.png
+lSLF07#2@82"CopyPNGFile "build/Distribution-iphoneos/Save Now.app/fondopref.png" fondopref.png322745993#322745993#0(0"0(0#0#47"/Users/Pablo/Desktop/Pendrive/EFM/fondopref.png8629984192#561"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Pablo/Desktop/Pendrive/EFM/fondopref.png "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/fondopref.png"0#
+
+CCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/preferenciasTab.png" preferenciasTab.png
+s322745992.272966
+e322745992.313312
+r1
+xCopyPNGFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/preferenciasTab.png
+xpreferenciasTab.png
+lSLF07#2@94"CopyPNGFile "build/Distribution-iphoneos/Save Now.app/preferenciasTab.png" preferenciasTab.png322745992#322745992#0(0"0(0#0#53"/Users/Pablo/Desktop/Pendrive/EFM/preferenciasTab.png8627816832#573"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Pablo/Desktop/Pendrive/EFM/preferenciasTab.png "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/preferenciasTab.png"0#
+
+CCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/sobreDetalle.png" sobreDetalle.png
+s322745992.313460
+e322745993.623291
+r1
+xCopyPNGFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/sobreDetalle.png
+xsobreDetalle.png
+lSLF07#2@88"CopyPNGFile "build/Distribution-iphoneos/Save Now.app/sobreDetalle.png" sobreDetalle.png322745992#322745993#0(0"0(0#0#50"/Users/Pablo/Desktop/Pendrive/EFM/sobreDetalle.png8626476960#567"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Pablo/Desktop/Pendrive/EFM/sobreDetalle.png "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/sobreDetalle.png"0#
+
+CCopyPNGFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/sobreTab.png" sobreTab.png
+s322745992.231914
+e322745992.272821
+r1
+xCopyPNGFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/sobreTab.png
+xsobreTab.png
+lSLF07#2@80"CopyPNGFile "build/Distribution-iphoneos/Save Now.app/sobreTab.png" sobreTab.png322745992#322745992#0(0"0(0#0#46"/Users/Pablo/Desktop/Pendrive/EFM/sobreTab.png8628909472#559"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Pablo/Desktop/Pendrive/EFM/sobreTab.png "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/sobreTab.png"0#
+
+CCopyPlistFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/SobresDetalleData.plist" SobresDetalleData.plist
+s322745992.191590
+e322745992.230605
+r1
+xCopyPlistFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/SobresDetalleData.plist
+xSobresDetalleData.plist
+lSLF07#2@28"Copy SobresDetalleData.plist322745992#322745992#0(0"0(0#0#57"/Users/Pablo/Desktop/Pendrive/EFM/SobresDetalleData.plist8630055776#384"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 SobresDetalleData.plist --outdir "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app"0#
+
+CCopyStringsFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/English.lproj/Localizable.strings" English.lproj/Localizable.strings
+s322745993.090593
+e322745993.138460
+r1
+xCopyStringsFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/English.lproj/Localizable.strings
+xEnglish.lproj/Localizable.strings
+lSLF07#2@38"Copy English.lproj/Localizable.strings322745993#322745993#0(0"0(0#0#67"/Users/Pablo/Desktop/Pendrive/EFM/English.lproj/Localizable.strings8630692352#481"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary English.lproj/Localizable.strings --outdir "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/English.lproj"0#
+
+CCopyStringsFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Spanish.lproj/Localizable.strings" Spanish.lproj/Localizable.strings
+s322745993.138604
+e322745993.186148
+r1
+xCopyStringsFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Spanish.lproj/Localizable.strings
+xSpanish.lproj/Localizable.strings
+lSLF07#2@38"Copy Spanish.lproj/Localizable.strings322745993#322745993#0(0"0(0#0#67"/Users/Pablo/Desktop/Pendrive/EFM/Spanish.lproj/Localizable.strings8630271200#481"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary Spanish.lproj/Localizable.strings --outdir "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Spanish.lproj"0#
+
+CCpResource "build/Distribution-iphoneos/Save Now.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s322745990.328964
+e322745990.340504
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Save Now.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist322745990#322745990#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8628723296#515"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app"0#
+
+CCpResource "build/Distribution-iphoneos/Save Now.app/botonGuardar.jpg" botonGuardar.jpg
+s322745992.230742
+e322745992.240779
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Save Now.app/botonGuardar.jpg
+xbotonGuardar.jpg
+lSLF07#2@21"Copy botonGuardar.jpg322745992#322745992#0(0"0(0#0#50"/Users/Pablo/Desktop/Pendrive/EFM/botonGuardar.jpg8631843136#476"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/Pablo/Desktop/Pendrive/EFM/botonGuardar.jpg "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app"0#
+
+CCreateUniversalBinary "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Save Now" normal "armv6 armv7"
+s322745997.930626
+e322745997.936040
+r1
+xCreateUniversalBinary
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Save Now
+xnormal
+xarmv6 armv7
+lSLF07#2@94"CreateUniversalBinary "build/Distribution-iphoneos/Save Now.app/Save Now" normal "armv6 armv7"322745997#322745997#0(0"0(0#0#45"/Users/Pablo/Desktop/Pendrive/EFM/armv6 armv78628805152#533"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/Save Now" "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/Save Now" -output "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Save Now"0#
+
+CGenerateDSYMFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app.dSYM" "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Save Now"
+s322745997.936178
+e322745998.020176
+r1
+xGenerateDSYMFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app.dSYM
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Save Now
+lSLF07#2@116"GenerateDSYMFile "build/Distribution-iphoneos/Save Now.app.dSYM" "build/Distribution-iphoneos/Save Now.app/Save Now"322745997#322745998#0(0"0(0#0#83"/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Save Now8630382432#368"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Save Now" -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app.dSYM"0#
+
+CLd "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/Save Now" normal armv6
+s322745996.378550
+e322745996.454679
+r1
+xLd
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/Save Now
+xnormal
+xarmv6
+lSLF07#2@126"Link /Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/Save Now322745996#322745996#0(0"0(0#0#0"8631153952#872"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos -F/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos -filelist "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/Save Now.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv6/Save Now"0#
+
+CLd "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/Save Now" normal armv7
+s322745997.873537
+e322745997.930480
+r1
+xLd
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/Save Now
+xnormal
+xarmv7
+lSLF07#2@126"Link /Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/Save Now322745997#322745997#0(0"0(0#0#0"8629692992#872"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos -F/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos -filelist "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/Save Now.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Objects-normal/armv7/Save Now"0#
+
+CProcessInfoPlistFile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Info.plist" "Save Now-Info.plist"
+s322745990.330363
+e322745990.342937
+r1
+xProcessInfoPlistFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Info.plist
+xSave Now-Info.plist
+lSLF07#2@27"Process Save Now-Info.plist322745990#322745990#0(0"0(0#0#53"/Users/Pablo/Desktop/Pendrive/EFM/Save Now-Info.plist8624201408#575"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "Save Now-Info.plist" -genpkginfo "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/ResourceRules.plist" -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/Info.plist"0#
+
+CProcessPCH "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-cnftqstgtwfzmbfousdapctyhoga/Save Now_Prefix.pch.gch" "Save Now_Prefix.pch" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322745993.623565
+e322745994.655908
+r1
+xProcessPCH
+x/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-cnftqstgtwfzmbfousdapctyhoga/Save Now_Prefix.pch.gch
+xSave Now_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Save Now_Prefix.pch322745993#322745994#0(0"0(0#0#53"/Users/Pablo/Desktop/Pendrive/EFM/Save Now_Prefix.pch8629168928#1687"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources/armv6" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/Pablo/Desktop/Pendrive/EFM/Save Now_Prefix.pch" -o "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-cnftqstgtwfzmbfousdapctyhoga/Save Now_Prefix.pch.gch"0#
+
+CProcessPCH "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-hbdcyvhjrqamwxaykuogurdfpaws/Save Now_Prefix.pch.gch" "Save Now_Prefix.pch" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322745993.625013
+e322745994.673594
+r1
+xProcessPCH
+x/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-hbdcyvhjrqamwxaykuogurdfpaws/Save Now_Prefix.pch.gch
+xSave Now_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Save Now_Prefix.pch322745993#322745994#0(0"0(0#0#53"/Users/Pablo/Desktop/Pendrive/EFM/Save Now_Prefix.pch8628864768#1687"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-generated-files.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-own-target-headers.hmap" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-all-target-headers.hmap" -iquote "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now-project-headers.hmap" -F/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos -I/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/include "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources/armv7" "-I/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/Pablo/Desktop/Pendrive/EFM/Save Now_Prefix.pch" -o "/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Save Now_Prefix-hbdcyvhjrqamwxaykuogurdfpaws/Save Now_Prefix.pch.gch"0#
+
+CProcessProductPackaging "/Users/Pablo/Library/MobileDevice/Provisioning Profiles/444E92A9-C856-40A8-86DB-DE9D5B2F8D1F.mobileprovision" "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/embedded.mobileprovision"
+s322745998.020365
+e322745998.022494
+r1
+xProcessProductPackaging
+x/Users/Pablo/Library/MobileDevice/Provisioning Profiles/444E92A9-C856-40A8-86DB-DE9D5B2F8D1F.mobileprovision
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/Pablo/Library/MobileDevice/Provisioning Profiles/444E92A9-C856-40A8-86DB-DE9D5B2F8D1F.mobileprovision" "build/Distribution-iphoneos/Save Now.app/embedded.mobileprovision"322745998#322745998#0(0"0(0#0#99"/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/embedded.mobileprovision8629361984#423"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Pablo/Library/MobileDevice/Provisioning Profiles/444E92A9-C856-40A8-86DB-DE9D5B2F8D1F.mobileprovision" -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now.xcent"
+s322745998.028186
+e322745998.030695
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now.xcent
+lSLF07#2@187"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now.xcent"322745998#322745998#0(0"0(0#0#106"/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now.xcent8627795168#434"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/Pablo/Desktop/Pendrive/EFM/build/Save Now.build/Distribution-iphoneos/Save Now.build/Save Now.xcent"0#
+
+CTouch "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app"
+s322745998.022592
+e322745998.028048
+r1
+xTouch
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app
+lSLF07#2@80"Touch /Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app322745998#322745998#0(0"0(0#0#0"8628941728#264"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app"0#
+
+CValidate "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app"
+s322745998.375333
+e322745998.565880
+r1
+xValidate
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app
+o2011-03-25 11:39:58.401 Validation[2449:607] *** Warning: Defaulting to the standard codesign tool
+lSLF07#2@51"Validate "build/Distribution-iphoneos/Save Now.app"322745998#322745998#0(99"2011-03-25 11:39:58.401 Validation[2449:607] *** Warning: Defaulting to the standard codesign tool0(0#0#74"/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app8629896160#373"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation "/Users/Pablo/Desktop/Pendrive/EFM/build/Distribution-iphoneos/Save Now.app"0#
+

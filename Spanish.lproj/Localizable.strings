@@ -1,0 +1,74 @@
+/* 
+   Localizable.strings
+   EFM
+
+   Created by Pablo Sierra on 12/03/2011.
+   Copyright 2011 __MyCompanyName__. All rights reserved.
+ */
+
+/* CATEGORIAS */
+"necesidadesBasicas" = "Necesidades básicas";
+"gastosFijos" = "Gastos fijos";
+"transporte" = "Transporte";
+"ocio" = "Ocio";
+"otrosGastos" = "Otros gastos";
+"ahorro" = "Ahorro";
+
+//Ventanas flotantes de información
+"informacionNecesidadesBasicas"="Sobre dedicado a alimentación, cuidado personal";
+"informacionGastosFijos"="Sobre dedicado a créditos, hipotecas, agua, luz, teléfono...";
+"informacionTransporte"="Sobre dedicado a los gastos de trasporte";
+"informacionOcio"="Sobre dedicado al ocio: cine, restaurantes, bares...";
+"informacionOtrosGastos"="En este sobre van los gastos que no entran en las categorias anteriores";
+"informacionAhorro"="Sobre donde se irá guardando el dinero que vamos ahorrando para darte un capricho o cumplir un objetivo que te habías marcado";
+
+/* PESTAÑAS */
+"tabSobres" = "Sobres";
+"tabPreferencias" = "Preferencias";
+
+/* PESTAÑA SOBRES */
+"textoPresupuesto" = "Presupuesto";
+"textoGastado" = "Gastado";
+"textoPorcentaje" = "Porcentaje";
+
+"textoUltimoGasto" = "Último gasto";
+"textoUltimoReset" = "Último reset";
+
+//Botones
+"textoBotonSacar" = "Sacar";
+"textoBotonReset" = "Reset";
+
+//Reset Ahorros
+"mensajeResetAhorros" = "¿Quieres resetear el sobre de ahorros?";
+"botonAceptarResetAhorros" = "Aceptar";
+"botonCancelarResetAhorros" = "Cancelar";
+
+//Reset General
+"tituloResetSobre" = "¿Mover el dinero restante?";
+"botonSoloReseteo" ="Solo resetear";
+"botonEnviarAhorro" ="Enviar a ahorro";
+"botonCancelarResetSobre" ="Cancelar";
+
+//Sacar en ahorro
+"mensajeNotienesAhorros"="No tienes suficiente dinero";
+//Sacar en el resto de sobres
+"mensajeNumerosRojos"="¿Estas seguro? vas a numeros rojos!";
+"botonAceptarNumerosRojos"="Aceptar";
+"botonCancelarNumerosRojos"="Cancelar";
+
+/* PESTAÑA PREFERENCIAS */
+"tituloPreferencias" = "Preferencias";
+"tituloPresupuestosSobres" = "Presupuestos";
+"tituloMoneda" = "Moneda";
+"tituloTotal" ="Total";
+
+//Mensaje no ha introducido presupuesto
+"tituloError" = "Error";
+"mensajeError" = "You haven't introduce any budget";
+"botonAceptar"= "OK";
+
+//Mensajes para el actionsheet
+"tituloActualizacionPresupuesto" = "¿Cuándo lo actualizamos?";
+"botonCancelar" = "Cancelar";
+"botonAhora" = "Ahora";
+"botonProximoReset" = "En el próximo reset";

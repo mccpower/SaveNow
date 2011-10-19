@@ -1,0 +1,716 @@
+TEFM
+v7
+r0
+t321745450.541907
+cCheck dependencies
+cProcessInfoPlistFile /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/Info.plist EFM-Info.plist
+cCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib
+cCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib
+cCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib
+cCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib
+cCopyPlistFile /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/SobresDetalleData.plist SobresDetalleData.plist
+cCpResource build/Debug-iphonesimulator/EFM.app/botonGuardar.jpg botonGuardar.jpg
+cCpResource build/Debug-iphonesimulator/EFM.app/sobreTab.png sobreTab.png
+cCpResource build/Debug-iphonesimulator/EFM.app/preferenciasTab.png preferenciasTab.png
+cCpResource build/Debug-iphonesimulator/EFM.app/sobreDetalle.png sobreDetalle.png
+cCpResource build/Debug-iphonesimulator/EFM.app/iconoApp.png iconoApp.png
+cCopyStringsFile /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/English.lproj/Localizable.strings English.lproj/Localizable.strings
+cCopyStringsFile /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/Spanish.lproj/Localizable.strings Spanish.lproj/Localizable.strings
+cCpResource build/Debug-iphonesimulator/EFM.app/fondopref.png fondopref.png
+cProcessPCH /var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EFM_Prefix-dzzknfcwytexpzckghzsejnyoddh/EFM_Prefix.pch.gch EFM_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/main.o /Users/Pablo/Desktop/Pendrive/EFM/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/EFMAppDelegate.o /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/SobresController.o /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/PreferenciasController.o /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/SobreDetalleController.o /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/EFM normal i386
+cGenerateDSYMFile /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app.dSYM /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/EFM
+cTouch /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m
+c000000004D79218F0000000000001FA5
+t1299784079
+s8101
+i"SobresController.h"
+i"SobreDetalleController.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib
+c000000004D7C2A230000000000067024
+t1299982883
+s421924
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m
+c000000004D7CC42C00000000000039ED
+t1300022316
+s14829
+i"PreferenciasController.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib
+c000000004D7CCE0600000000000104D3
+t1300024838
+s66771
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.h
+c000000004D7CCDF00000000000000A39
+t1300024816
+s2617
+i<UIKit/UIKit.h>
+i"EFMAppDelegate.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m
+c000000004D7D38DE000000000000469B
+t1300052190
+s18075
+i"SobreDetalleController.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib
+c000000004D0519300000000000005266
+t1292179760
+s21094
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.h
+c000000004D6C0CA900000000000002A2
+t1298926761
+s674
+i<UIKit/UIKit.h>
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m
+c000000004D702EC70000000000000F83
+t1299197639
+s3971
+i"EFMAppDelegate.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/NumberKeypadDecimalPoint.h
+c000000004D7B615E0000000000000377
+t1299931486
+s887
+i<Foundation/Foundation.h>
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/NumberKeypadDecimalPoint.m
+c000000004D7B61B00000000000000E97
+t1299931568
+s3735
+i"NumberKeypadDecimalPoint.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Classes/SobresController.h
+c000000004D683822000000000000027E
+t1298675746
+s638
+i<UIKit/UIKit.h>
+i"SobreDetalleController.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/EFM_Prefix.pch
+c000000004CD2E11A00000000000000AF
+t1288888602
+s175
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Pablo/Desktop/Pendrive/EFM/English.lproj/Localizable.strings
+c000000004D7CCBB100000000000008EE
+t1300024241
+s2286
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Localizable.strings
+c000000004D7BC7D6000000000000008B
+t1299957718
+s139
+
+N/Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib
+c000000004D77E34200000000000097E6
+t1299702594
+s38886
+
+N/Users/Pablo/Desktop/Pendrive/EFM/PreferenciasController.h
+c000000004D7C2A2F0000000000000812
+t1299982895
+s2066
+i<UIKit/UIKit.h>
+i"EFMAppDelegate.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/SobreDetalleController.h
+c000000004D7CCDF00000000000000A39
+t1300024816
+s2617
+i<UIKit/UIKit.h>
+i"EFMAppDelegate.h"
+
+N/Users/Pablo/Desktop/Pendrive/EFM/SobresDetalleData.plist
+c000000004D7CD1FD0000000000000ACA
+t1300025853
+s2762
+
+N/Users/Pablo/Desktop/Pendrive/EFM/Spanish.lproj/Localizable.strings
+c000000004D7C28D4000000000000094F
+t1299982548
+s2383
+
+N/Users/Pablo/Desktop/Pendrive/EFM/botonGuardar.jpg
+c000000004CF2F5F60000000000003054
+t1290991094
+s12372
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app
+t1300052650
+s612
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app.dSYM
+t1300052650
+s102
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/EFM
+t1300052650
+s87612
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/English.lproj/Localizable.strings
+t1300052647
+s2025
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/Info.plist
+t1300052646
+s609
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/Localizable.strings
+t1299957721
+s42
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/MainWindow.nib
+t1300052647
+s1976
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/PkgInfo
+t1300052646
+s8
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/Preferencias.nib
+t1300052647
+s6108
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/SobreDetalle.nib
+t1300052648
+s6080
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/Sobres.nib
+t1300052647
+s1223
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/SobresDetalleData.plist
+t1300052647
+s539
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/Spanish.lproj/Localizable.strings
+t1300052647
+s2411
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/botonGuardar.jpg
+t1300052647
+s12372
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/clkerEnvelop.png
+t1299958391
+s40060
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/fondo1pref copia.png
+t2
+s0
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/fondo2pref copia.png
+t2
+s0
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/fondopref.png
+t1300052647
+s3698
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/iconoApp.png
+t1300052647
+s12135
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/preferencias.png
+t2
+s0
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/preferenciasTab.png
+t1300052647
+s3216
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/sobreDetalle.png
+t1300052647
+s69056
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/sobreDetallePrevioTerminado.png
+t2
+s0
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/sobreDetallePrevioTerminadov2.png
+t2
+s0
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/sobreDetallePrevioTerminadov4.png
+t2
+s0
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/sobreDetallePrevioTerminadov5.png
+t1299783569
+s69056
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/sobreTab.png
+t1300052647
+s3176
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/EFM.LinkFileList
+c000000004D7D3AA6000000000000025B
+t1300052646
+s603
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/EFMAppDelegate.o
+t1300052649
+s60028
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/NumberKeypadDecimalPoint.o
+t1299931592
+s54504
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/PreferenciasController.o
+t1300052650
+s106476
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/SobreDetalleController.o
+t1300052650
+s120504
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/SobresController.o
+t1300052650
+s56352
+
+N/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/main.o
+t1300052649
+s6292
+
+N/Users/Pablo/Desktop/Pendrive/EFM/clkerEnvelop.png
+c000000004D6956580000000000009C7C
+t1298749016
+s40060
+
+N/Users/Pablo/Desktop/Pendrive/EFM/es.lproj/Localizable.strings
+c000000004D7BC610000000000000049D
+t1299957264
+s1181
+
+N/Users/Pablo/Desktop/Pendrive/EFM/fondo1pref copia.png
+c000000004D79254B0000000000000E88
+t1299785035
+s3720
+
+N/Users/Pablo/Desktop/Pendrive/EFM/fondo2pref copia.png
+c000000004D7927250000000000000F67
+t1299785509
+s3943
+
+N/Users/Pablo/Desktop/Pendrive/EFM/fondopref.png
+c000000004D7BD94A0000000000000E72
+t1299962186
+s3698
+
+N/Users/Pablo/Desktop/Pendrive/EFM/iconoApp.png
+c000000004D7A283E0000000000002F67
+t1299851326
+s12135
+
+N/Users/Pablo/Desktop/Pendrive/EFM/main.m
+c000000004CD2E11A000000000000015A
+t1288888602
+s346
+i<UIKit/UIKit.h>
+
+N/Users/Pablo/Desktop/Pendrive/EFM/preferencias.png
+c000000004D77E2600000000000000C90
+t1299702368
+s3216
+
+N/Users/Pablo/Desktop/Pendrive/EFM/preferenciasTab.png
+c000000004D77E2600000000000000C90
+t1299702368
+s3216
+
+N/Users/Pablo/Desktop/Pendrive/EFM/sobreDetalle.png
+c000000004D791F810000000000010DC0
+t1299783553
+s69056
+
+N/Users/Pablo/Desktop/Pendrive/EFM/sobreDetallePrevioTerminado.png
+c000000004D7919CD000000000001DA2A
+t1299782093
+s121386
+
+N/Users/Pablo/Desktop/Pendrive/EFM/sobreDetallePrevioTerminadov2.png
+c000000004D791C07000000000000E42F
+t1299782663
+s58415
+
+N/Users/Pablo/Desktop/Pendrive/EFM/sobreDetallePrevioTerminadov4.png
+c000000004D791D94000000000000ECED
+t1299783060
+s60653
+
+N/Users/Pablo/Desktop/Pendrive/EFM/sobreDetallePrevioTerminadov5.png
+c000000004D791F810000000000010DC0
+t1299783553
+s69056
+
+N/Users/Pablo/Desktop/Pendrive/EFM/sobreTab.png
+c000000004D75A0E20000000000000C68
+t1299554530
+s3176
+
+N/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EFM_Prefix-dzzknfcwytexpzckghzsejnyoddh/EFM_Prefix.pch.gch
+t1300052649
+s15453392
+
+NEFM-Info.plist
+c000000004D7A286A0000000000000395
+t1299851370
+s917
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321745446#321745446#0(0"0(0#1#0"8623888480#0"0#
+
+CCompileC build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/EFMAppDelegate.o /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321745449.846629
+e321745449.993050
+r1
+xCompileC
+xbuild/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/EFMAppDelegate.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m321745449#321745450#0(0"0(0#0#58"/Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m8625243584#1807"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-generated-files.hmap -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-own-target-headers.hmap -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-all-target-headers.hmap -iquote /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-project-headers.hmap -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/include -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/DerivedSources/i386 -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/DerivedSources -include /var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EFM_Prefix-dzzknfcwytexpzckghzsejnyoddh/EFM_Prefix.pch -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/EFMAppDelegate.m -o /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/EFMAppDelegate.o0#
+
+CCompileC build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/NumberKeypadDecimalPoint.o /Users/Pablo/Desktop/Pendrive/EFM/Classes/NumberKeypadDecimalPoint.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321624392.059460
+e321624392.233316
+r1
+xCompileC
+xbuild/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/NumberKeypadDecimalPoint.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/NumberKeypadDecimalPoint.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/NumberKeypadDecimalPoint.m321624392#321624392#0(0"0(0#0#68"/Users/Pablo/Desktop/Pendrive/EFM/Classes/NumberKeypadDecimalPoint.m8613716928#1827"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-generated-files.hmap -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-own-target-headers.hmap -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-all-target-headers.hmap -iquote /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-project-headers.hmap -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/include -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/DerivedSources/i386 -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/DerivedSources -include /var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EFM_Prefix-dzzknfcwytexpzckghzsejnyoddh/EFM_Prefix.pch -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/NumberKeypadDecimalPoint.m -o /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/NumberKeypadDecimalPoint.o0#
+
+CCompileC build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/PreferenciasController.o /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321745449.993197
+e321745450.333027
+r1
+xCompileC
+xbuild/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/PreferenciasController.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m: In function '-[PreferenciasController botonActualizarPresupuesto:]':
+o/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m:191: warning: incompatible Objective-C types 'struct UIView *', expected 'struct UITabBar *' when passing argument 1 of 'showFromTabBar:' from distinct Objective-C type
+lSLF07#2@77"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m321745449#321745450#0(379"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m: In function '-[PreferenciasController botonActualizarPresupuesto:]':/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m:191: warning: incompatible Objective-C types 'struct UIView *', expected 'struct UITabBar *' when passing argument 1 of 'showFromTabBar:' from distinct Objective-C type1(22@154"Incompatible Objective-C types 'struct UIView *', expected 'struct UITabBar *' when passing argument 1 of 'showFromTabBar:' from distinct Objective-C type321745450#140#239#0(6@69"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m321715116#191#0#191#0#0"0(0#0#69"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m8624057856#1826"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-generated-files.hmap -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-own-target-headers.hmap -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-all-target-headers.hmap -iquote /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-project-headers.hmap -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/include -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/DerivedSources/i386 -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/DerivedSources -include /var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EFM_Prefix-dzzknfcwytexpzckghzsejnyoddh/EFM_Prefix.pch -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/../PreferenciasController.m -o /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/PreferenciasController.o0#
+
+CCompileC build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/SobreDetalleController.o /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321745450.140031
+e321745450.445635
+r1
+xCompileC
+xbuild/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/SobreDetalleController.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m:499: warning: property 'dineroAnadirAhorro' requires method '-dineroAnadirAhorro' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m:499: warning: property 'dineroAnadirAhorro' requires the method 'setDineroAnadirAhorro:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@77"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m321745450#321745450#0(465"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m:499: warning: property 'dineroAnadirAhorro' requires method '-dineroAnadirAhorro' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m:499: warning: property 'dineroAnadirAhorro' requires the method 'setDineroAnadirAhorro:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@144"Property 'dineroAnadirAhorro' requires method '-dineroAnadirAhorro' to be defined - use @synthesize, @dynamic or provide a method implementation321745450#0#229#0(6@69"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m321744990#499#0#499#0#0"0(22@151"Property 'dineroAnadirAhorro' requires the method 'setDineroAnadirAhorro:' to be defined - use @synthesize, @dynamic or provide a method implementation321745450#229#236#0(6@69"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m321744990#499#0#499#0#0"0(0#0#69"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m8623647808#1826"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-generated-files.hmap -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-own-target-headers.hmap -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-all-target-headers.hmap -iquote /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-project-headers.hmap -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/include -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/DerivedSources/i386 -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/DerivedSources -include /var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EFM_Prefix-dzzknfcwytexpzckghzsejnyoddh/EFM_Prefix.pch -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalleController.m -o /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/SobreDetalleController.o0#
+
+CCompileC build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/SobresController.o /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321745449.936990
+e321745450.139875
+r1
+xCompileC
+xbuild/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/SobresController.o
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m321745449#321745450#0(0"0(0#0#71"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m8624286912#1822"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-generated-files.hmap -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-own-target-headers.hmap -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-all-target-headers.hmap -iquote /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-project-headers.hmap -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/include -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/DerivedSources/i386 -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/DerivedSources -include /var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EFM_Prefix-dzzknfcwytexpzckghzsejnyoddh/EFM_Prefix.pch -c /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Classes/SobresController.m -o /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/SobresController.o0#
+
+CCompileC build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/main.o /Users/Pablo/Desktop/Pendrive/EFM/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321745449.844781
+e321745449.936835
+r1
+xCompileC
+xbuild/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/main.o
+x/Users/Pablo/Desktop/Pendrive/EFM/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/Pablo/Desktop/Pendrive/EFM/main.m321745449#321745449#0(0"0(0#0#40"/Users/Pablo/Desktop/Pendrive/EFM/main.m8626700384#1779"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-generated-files.hmap -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-own-target-headers.hmap -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-all-target-headers.hmap -iquote /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-project-headers.hmap -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/include -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/DerivedSources/i386 -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/DerivedSources -include /var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EFM_Prefix-dzzknfcwytexpzckghzsejnyoddh/EFM_Prefix.pch -c /Users/Pablo/Desktop/Pendrive/EFM/main.m -o /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib
+s321745446.297704
+e321745447.504683
+r1
+xCompileXIB
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/Pablo/Desktop/Pendrive/EFM/Preferencias.xib:75: warning: Tint color is only supported with bar style segmented controls.
+lSLF07#2@38"CompileXIB Classes/../Preferencias.xib321745446#321745447#0(169"/* com.apple.ibtool.document.warnings *//Users/Pablo/Desktop/Pendrive/EFM/Preferencias.xib:75: warning: Tint color is only supported with bar style segmented controls.1(22@63"Tint color is only supported with bar style segmented controls.321745447#18446744073709551615#0#0(6@50"/Users/Pablo/Desktop/Pendrive/EFM/Preferencias.xib321675683#75#0#75#0#0"0(0#0#61"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib8619606464#566"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/Preferencias.nib /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Preferencias.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib
+s321745447.504817
+e321745448.696634
+r1
+xCompileXIB
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib
+lSLF07#2@38"CompileXIB Classes/../SobreDetalle.xib321745447#321745448#0(0"0(0#0#61"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib8623322336#566"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/SobreDetalle.nib /Users/Pablo/Desktop/Pendrive/EFM/Classes/../SobreDetalle.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib
+s321745447.050658
+e321745447.753854
+r1
+xCompileXIB
+x/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib
+lSLF07#2@32"CompileXIB Classes/../Sobres.xib321745447#321745447#0(0"0(0#0#55"/Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib8623727168#554"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/Sobres.nib /Users/Pablo/Desktop/Pendrive/EFM/Classes/../Sobres.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib
+s321745446.296581
+e321745447.050529
+r1
+xCompileXIB
+x/Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib321745446#321745447#0(0"0(0#0#48"/Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib8619684736#551"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/MainWindow.nib /Users/Pablo/Desktop/Pendrive/EFM/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCopyPlistFile /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/SobresDetalleData.plist SobresDetalleData.plist
+s321745447.753991
+e321745447.797638
+r1
+xCopyPlistFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/SobresDetalleData.plist
+xSobresDetalleData.plist
+lSLF07#2@28"Copy SobresDetalleData.plist321745447#321745447#0(0"0(0#0#57"/Users/Pablo/Desktop/Pendrive/EFM/SobresDetalleData.plist8622943232#384"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 SobresDetalleData.plist --outdir /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app0#
+
+CCopyStringsFile /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/English.lproj/Localizable.strings English.lproj/Localizable.strings
+s321745447.813572
+e321745447.866215
+r1
+xCopyStringsFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/English.lproj/Localizable.strings
+xEnglish.lproj/Localizable.strings
+lSLF07#2@38"Copy English.lproj/Localizable.strings321745447#321745447#0(0"0(0#0#67"/Users/Pablo/Desktop/Pendrive/EFM/English.lproj/Localizable.strings8620500608#481"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary English.lproj/Localizable.strings --outdir /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/English.lproj0#
+
+CCopyStringsFile /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/Localizable.strings Localizable.strings
+s321650521.026761
+e321650521.123807
+r1
+xCopyStringsFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/Localizable.strings
+xLocalizable.strings
+lSLF07#2@24"Copy Localizable.strings321650521#321650521#0(0"0(0#0#53"/Users/Pablo/Desktop/Pendrive/EFM/Localizable.strings8639575424#453"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary Localizable.strings --outdir /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app0#
+
+CCopyStringsFile /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/Spanish.lproj/Localizable.strings Spanish.lproj/Localizable.strings
+s321745447.866354
+e321745447.918556
+r1
+xCopyStringsFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/Spanish.lproj/Localizable.strings
+xSpanish.lproj/Localizable.strings
+lSLF07#2@38"Copy Spanish.lproj/Localizable.strings321745447#321745447#0(0"0(0#0#67"/Users/Pablo/Desktop/Pendrive/EFM/Spanish.lproj/Localizable.strings8620156096#481"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary Spanish.lproj/Localizable.strings --outdir /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/Spanish.lproj0#
+
+CCopyStringsFile /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/es.lproj/Localizable.strings es.lproj/Localizable.strings
+s321650569.513064
+e321650569.601187
+r0
+xCopyStringsFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/es.lproj/Localizable.strings
+xes.lproj/Localizable.strings
+o2011-03-12 19:22:49.570 plutil[3248:60f] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary.
+oes.lproj/Localizable.strings: Unexpected character / at line 1
+o2011-03-12 19:22:49.588 plutil[3249:60f] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary.
+oes.lproj/Localizable.strings: Unexpected character / at line 1
+lSLF07#2@33"Copy es.lproj/Localizable.strings321650569#321650569#0(513"2011-03-12 19:22:49.570 plutil[3248:60f] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary.es.lproj/Localizable.strings: Unexpected character / at line 12011-03-12 19:22:49.588 plutil[3249:60f] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary.es.lproj/Localizable.strings: Unexpected character / at line 1Command /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings failed with exit code 11(4@120"Command /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings failed with exit code 1321650569#18446744073709551615#0#0(1@0"0(0#0#62"/Users/Pablo/Desktop/Pendrive/EFM/es.lproj/Localizable.strings8637817472#471"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary es.lproj/Localizable.strings --outdir /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/es.lproj1#
+
+CCpResource "build/Debug-iphonesimulator/EFM.app/fondo1pref copia.png" "fondo1pref copia.png"
+r0
+
+CCpResource "build/Debug-iphonesimulator/EFM.app/fondo2pref copia.png" "fondo2pref copia.png"
+r0
+
+CCpResource build/Debug-iphonesimulator/EFM.app/botonGuardar.jpg botonGuardar.jpg
+s321745447.797905
+e321745447.817040
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/EFM.app/botonGuardar.jpg
+xbotonGuardar.jpg
+lSLF07#2@21"Copy botonGuardar.jpg321745447#321745447#0(0"0(0#0#50"/Users/Pablo/Desktop/Pendrive/EFM/botonGuardar.jpg8622693696#455"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Pablo/Desktop/Pendrive/EFM/botonGuardar.jpg /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app0#
+
+CCpResource build/Debug-iphonesimulator/EFM.app/clkerEnvelop.png clkerEnvelop.png
+s321651191.621630
+e321651191.657288
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/EFM.app/clkerEnvelop.png
+xclkerEnvelop.png
+lSLF07#2@21"Copy clkerEnvelop.png321651191#321651191#0(0"0(0#0#50"/Users/Pablo/Desktop/Pendrive/EFM/clkerEnvelop.png8590071776#455"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Pablo/Desktop/Pendrive/EFM/clkerEnvelop.png /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app0#
+
+CCpResource build/Debug-iphonesimulator/EFM.app/fondopref.png fondopref.png
+s321745447.918687
+e321745447.948205
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/EFM.app/fondopref.png
+xfondopref.png
+lSLF07#2@18"Copy fondopref.png321745447#321745447#0(0"0(0#0#47"/Users/Pablo/Desktop/Pendrive/EFM/fondopref.png8619620160#452"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Pablo/Desktop/Pendrive/EFM/fondopref.png /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app0#
+
+CCpResource build/Debug-iphonesimulator/EFM.app/iconoApp.png iconoApp.png
+s321745447.807896
+e321745447.828547
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/EFM.app/iconoApp.png
+xiconoApp.png
+lSLF07#2@17"Copy iconoApp.png321745447#321745447#0(0"0(0#0#46"/Users/Pablo/Desktop/Pendrive/EFM/iconoApp.png8620786080#451"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Pablo/Desktop/Pendrive/EFM/iconoApp.png /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app0#
+
+CCpResource build/Debug-iphonesimulator/EFM.app/preferencias.png preferencias.png
+r0
+
+CCpResource build/Debug-iphonesimulator/EFM.app/preferenciasTab.png preferenciasTab.png
+s321745447.801582
+e321745447.817229
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/EFM.app/preferenciasTab.png
+xpreferenciasTab.png
+lSLF07#2@24"Copy preferenciasTab.png321745447#321745447#0(0"0(0#0#53"/Users/Pablo/Desktop/Pendrive/EFM/preferenciasTab.png8621344768#458"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Pablo/Desktop/Pendrive/EFM/preferenciasTab.png /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app0#
+
+CCpResource build/Debug-iphonesimulator/EFM.app/sobreDetalle.png sobreDetalle.png
+s321745447.805744
+e321745447.828362
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/EFM.app/sobreDetalle.png
+xsobreDetalle.png
+lSLF07#2@21"Copy sobreDetalle.png321745447#321745447#0(0"0(0#0#50"/Users/Pablo/Desktop/Pendrive/EFM/sobreDetalle.png8621122656#455"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Pablo/Desktop/Pendrive/EFM/sobreDetalle.png /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app0#
+
+CCpResource build/Debug-iphonesimulator/EFM.app/sobreDetallePrevioTerminado.png sobreDetallePrevioTerminado.png
+r0
+
+CCpResource build/Debug-iphonesimulator/EFM.app/sobreDetallePrevioTerminadov2.png sobreDetallePrevioTerminadov2.png
+r0
+
+CCpResource build/Debug-iphonesimulator/EFM.app/sobreDetallePrevioTerminadov4.png sobreDetallePrevioTerminadov4.png
+r0
+
+CCpResource build/Debug-iphonesimulator/EFM.app/sobreDetallePrevioTerminadov5.png sobreDetallePrevioTerminadov5.png
+s321476369.604513
+e321476369.612777
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/EFM.app/sobreDetallePrevioTerminadov5.png
+xsobreDetallePrevioTerminadov5.png
+lSLF07#2@38"Copy sobreDetallePrevioTerminadov5.png321476369#321476369#0(0"0(0#0#67"/Users/Pablo/Desktop/Pendrive/EFM/sobreDetallePrevioTerminadov5.png8607049376#472"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Pablo/Desktop/Pendrive/EFM/sobreDetallePrevioTerminadov5.png /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app0#
+
+CCpResource build/Debug-iphonesimulator/EFM.app/sobreTab.png sobreTab.png
+s321745447.799503
+e321745447.828156
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/EFM.app/sobreTab.png
+xsobreTab.png
+lSLF07#2@17"Copy sobreTab.png321745447#321745447#0(0"0(0#0#46"/Users/Pablo/Desktop/Pendrive/EFM/sobreTab.png8622503584#451"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Pablo/Desktop/Pendrive/EFM/sobreTab.png /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app0#
+
+CGenerateDSYMFile /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app.dSYM /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/EFM
+s321745450.498917
+e321745450.536520
+r1
+xGenerateDSYMFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app.dSYM
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/EFM
+lSLF07#2@97"GenerateDSYMFile build/Debug-iphonesimulator/EFM.app.dSYM build/Debug-iphonesimulator/EFM.app/EFM321745450#321745450#0(0"0(0#0#73"/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/EFM8625071008#356"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/EFM -o /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app.dSYM0#
+
+CLd /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/EFM normal i386
+s321745450.445789
+e321745450.498750
+r1
+xLd
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/EFM
+xnormal
+xi386
+lSLF07#2@78"Link /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/EFM321745450#321745450#0(0"0(0#0#0"8626947808#855"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator -filelist /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/Objects-normal/i386/EFM.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/EFM0#
+
+CProcessInfoPlistFile /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/Info.plist EFM-Info.plist
+s321745446.289590
+e321745446.296442
+r1
+xProcessInfoPlistFile
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/Info.plist
+xEFM-Info.plist
+lSLF07#2@22"Process EFM-Info.plist321745446#321745446#0(0"0(0#0#48"/Users/Pablo/Desktop/Pendrive/EFM/EFM-Info.plist8620649216#452"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility EFM-Info.plist -genpkginfo /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app/Info.plist0#
+
+CProcessPCH /var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EFM_Prefix-dzzknfcwytexpzckghzsejnyoddh/EFM_Prefix.pch.gch EFM_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321745448.696810
+e321745449.844535
+r1
+xProcessPCH
+x/var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EFM_Prefix-dzzknfcwytexpzckghzsejnyoddh/EFM_Prefix.pch.gch
+xEFM_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile EFM_Prefix.pch321745448#321745449#0(0"0(0#0#48"/Users/Pablo/Desktop/Pendrive/EFM/EFM_Prefix.pch8602956992#1680"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-generated-files.hmap -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-own-target-headers.hmap -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-all-target-headers.hmap -iquote /Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/EFM-project-headers.hmap -F/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator -I/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/include -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/DerivedSources/i386 -I/Users/Pablo/Desktop/Pendrive/EFM/build/EFM.build/Debug-iphonesimulator/EFM.build/DerivedSources -c /Users/Pablo/Desktop/Pendrive/EFM/EFM_Prefix.pch -o /var/folders/+3/+3NfNAjXG7Wnnn+2keREvU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EFM_Prefix-dzzknfcwytexpzckghzsejnyoddh/EFM_Prefix.pch.gch0#
+
+CTouch /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app
+s321745450.536654
+e321745450.541850
+r1
+xTouch
+x/Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app
+lSLF07#2@75"Touch /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app321745450#321745450#0(0"0(0#0#0"8624749664#264"    cd /Users/Pablo/Desktop/Pendrive/EFM    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Pablo/Desktop/Pendrive/EFM/build/Debug-iphonesimulator/EFM.app0#
+
