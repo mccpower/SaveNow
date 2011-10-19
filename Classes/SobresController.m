@@ -15,7 +15,7 @@ static NSUInteger kNumberOfPages = 6;
 - (void)loadScrollViewWithPage:(int)page;
 - (void)miScrollViewDidScroll:(UIScrollView *)sender;
 @end
-
+//Comentario 1 xD
 
 @implementation SobresController
 @synthesize miScrollView,miPageControl,viewControllers;
