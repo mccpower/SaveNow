@@ -16,7 +16,7 @@
 	BOOL pageControlUsed;
 }
 
-
+//MY coment
 @property (nonatomic, retain) IBOutlet UIScrollView *miScrollView;
 @property (nonatomic, retain) IBOutlet UIPageControl *miPageControl;
 @property (nonatomic, retain) NSMutableArray *viewControllers;
