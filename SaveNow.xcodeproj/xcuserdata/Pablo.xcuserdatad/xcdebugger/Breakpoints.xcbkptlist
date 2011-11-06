@@ -13,7 +13,9 @@
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "187"
-         endingLineNumber = "187">
+         endingLineNumber = "187"
+         landmarkName = "@implementation SobreDetalleController"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -25,7 +27,9 @@
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "420"
-         endingLineNumber = "420">
+         endingLineNumber = "420"
+         landmarkName = "-cargarDetalleVista"
+         landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "Yes"
@@ -37,7 +41,9 @@
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "355"
-         endingLineNumber = "355">
+         endingLineNumber = "355"
+         landmarkName = "-alertView:didDismissWithButtonIndex:"
+         landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "Yes"
@@ -49,7 +55,9 @@
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "299"
-         endingLineNumber = "299">
+         endingLineNumber = "299"
+         landmarkName = "-actionSheet:didDismissWithButtonIndex:"
+         landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "Yes"
@@ -61,7 +69,9 @@
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "369"
-         endingLineNumber = "369">
+         endingLineNumber = "369"
+         landmarkName = "-actualizarGastado:"
+         landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "Yes"
@@ -73,7 +83,9 @@
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "370"
-         endingLineNumber = "370">
+         endingLineNumber = "370"
+         landmarkName = "-actualizarGastado:"
+         landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "Yes"
@@ -113,7 +125,9 @@
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "461"
-         endingLineNumber = "461">
+         endingLineNumber = "461"
+         landmarkName = "-cargarDetalleVista"
+         landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "Yes"
@@ -125,7 +139,9 @@
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "235"
-         endingLineNumber = "235">
+         endingLineNumber = "235"
+         landmarkName = "-actionSheet:didDismissWithButtonIndex:"
+         landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>
