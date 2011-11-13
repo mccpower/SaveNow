@@ -516,7 +516,18 @@
 	self.ocultarInformacion;
 }
 
--(IBAction)mostrarInformacion:(id)sender{
+-(IBAction)mostrarInformacion:(id)sender
+{
+    NSError *error;
+    if (![[GANTracker sharedTracker] trackEvent:@"Información"
+                                         action:@"Boton información pulsado"
+                                          label:@"SobreDetalleController"
+                                          value:-1
+                                      withError:&error]) {
+        // Handle error here
+    }
+    
+    
 	NSLog(@"Metodo mostrar informacion");
 	switch (pageNumber) {
 		case 0:
