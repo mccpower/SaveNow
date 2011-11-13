@@ -25,9 +25,7 @@
 	IBOutlet UILabel *porcentajeDato;
 	IBOutlet UILabel *ultimoGastoDato;
 	IBOutlet UILabel *fechaResetDato;
-	//PEPE
-    
-	
+    //PAQUITO
 	IBOutlet UITextField *txtDinero;
 	
 	IBOutlet UIButton *botonSacar;

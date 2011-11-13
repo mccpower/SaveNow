@@ -8,6 +8,8 @@
 
 #import "EFMAppDelegate.h"
 
+// Dispatch period in seconds
+static const NSInteger kGANDispatchPeriodSec = 10;
 
 @implementation EFMAppDelegate
 
@@ -26,6 +28,36 @@
 
     // Add the tab bar controller's view to the window and display.
 	
+    //Init Analytics    
+    
+    [[GANTracker sharedTracker] startTrackerWithAccountID:@"UA-27004344-1"
+                                           dispatchPeriod:kGANDispatchPeriodSec
+                                                 delegate:nil];
+    [[GANTracker sharedTracker] setAnonymizeIp:YES];
+    NSError *error;
+    
+    if (![[GANTracker sharedTracker] setCustomVariableAtIndex:1
+                                                         name:@"iPhone1"
+                                                        value:@"iv1"
+                                                    withError:&error]) {
+        // Handle error here
+    }
+    
+    if (![[GANTracker sharedTracker] trackEvent:@"Aplicación arrancada"
+                                         action:@"didFinishLaunchingWithOptions"
+                                          label:@"delegado"
+                                          value:-1
+                                      withError:&error]) {
+        // Handle error here
+    }
+    
+    if (![[GANTracker sharedTracker] trackPageview:@"Delegado"
+                                         withError:&error]) {
+        // Handle error here
+    }
+    
+    
+    
     [window addSubview:tabBarController.view];
 	tabBarItemSobres.title=NSLocalizedString(@"tabSobres",@"");
 	tabBarItemPreferencias.title=NSLocalizedString(@"tabPreferencias",@"");
@@ -57,7 +89,24 @@
 }
 
 
-- (void)applicationDidEnterBackground:(UIApplication *)application {
+- (void)applicationDidEnterBackground:(UIApplication *)application 
+{
+     NSError *error;
+    if (![[GANTracker sharedTracker] setCustomVariableAtIndex:1
+                                                         name:@"iPhone1"
+                                                        value:@"iv1"
+                                                    withError:&error]) {
+        // Handle error here
+    }
+    
+    if (![[GANTracker sharedTracker] trackEvent:@"Aplicación va a background"
+                                         action:@"applicationDidEnterBackground"
+                                          label:@"delegado"
+                                          value:-1
+                                      withError:&error]) {
+        // Handle error here
+    }
+
     /*
      Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
      If your application supports background execution, called instead of applicationWillTerminate: when the user quits.
@@ -65,21 +114,70 @@
 }
 
 
-- (void)applicationWillEnterForeground:(UIApplication *)application {
+- (void)applicationWillEnterForeground:(UIApplication *)application 
+{
+    NSError *error;
+    if (![[GANTracker sharedTracker] setCustomVariableAtIndex:1
+                                                         name:@"iPhone1"
+                                                        value:@"iv1"
+                                                    withError:&error]) {
+        // Handle error here
+    }
+    
+    if (![[GANTracker sharedTracker] trackEvent:@"Aplicación va a foreground"
+                                         action:@"applicationWillEnterForeground"
+                                          label:@"delegado"
+                                          value:-1
+                                      withError:&error]) {
+        // Handle error here
+    }
+
     /*
      Called as part of  transition from the background to the inactive state: here you can undo many of the changes made on entering the background.
      */
 }
 
 
-- (void)applicationDidBecomeActive:(UIApplication *)application {
+- (void)applicationDidBecomeActive:(UIApplication *)application 
+{
+    NSError *error;
+    if (![[GANTracker sharedTracker] setCustomVariableAtIndex:1
+                                                         name:@"iPhone1"
+                                                        value:@"iv1"
+                                                    withError:&error]) {
+        // Handle error here
+    }
+    
+    if (![[GANTracker sharedTracker] trackEvent:@"Aplicación pasa a activa"
+                                         action:@"applicationDidBecomeActive"
+                                          label:@"delegado"
+                                          value:-1
+                                      withError:&error]) {
+        // Handle error here
+    }
     /*
      Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
      */
 }
 
 
-- (void)applicationWillTerminate:(UIApplication *)application {
+- (void)applicationWillTerminate:(UIApplication *)application 
+{
+    NSError *error;
+    if (![[GANTracker sharedTracker] setCustomVariableAtIndex:1
+                                                         name:@"iPhone1"
+                                                        value:@"iv1"
+                                                    withError:&error]) {
+        // Handle error here
+    }
+    
+    if (![[GANTracker sharedTracker] trackEvent:@"Aplicación cerrandose"
+                                         action:@"applicationWillTerminate"
+                                          label:@"delegado"
+                                          value:-1
+                                      withError:&error]) {
+        // Handle error here
+    }
     /*
      Called when the application is about to terminate.
      See also applicationDidEnterBackground:.
@@ -106,7 +204,24 @@
 #pragma mark -
 #pragma mark Memory management
 
-- (void)applicationDidReceiveMemoryWarning:(UIApplication *)application {
+- (void)applicationDidReceiveMemoryWarning:(UIApplication *)application 
+{
+    NSError *error;
+    if (![[GANTracker sharedTracker] setCustomVariableAtIndex:1
+                                                         name:@"iPhone1"
+                                                        value:@"iv1"
+                                                    withError:&error]) {
+        // Handle error here
+    }
+    
+    if (![[GANTracker sharedTracker] trackEvent:@"Aviso de memoria"
+                                         action:@"applicationDidReceiveMemoryWarning"
+                                          label:@"delegado"
+                                          value:-1
+                                      withError:&error]) {
+        // Handle error here
+    }
+
     /*
      Free up as much memory as possible by purging cached data objects that can be recreated (or reloaded from disk) later.
      */

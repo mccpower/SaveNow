@@ -35,7 +35,33 @@
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
+- (void)viewDidLoad 
+{
+    NSError *error;
+    
+    if (![[GANTracker sharedTracker] setCustomVariableAtIndex:1
+                                                         name:@"iPhone1"
+                                                        value:@"iv1"
+                                                    withError:&error]) {
+        // Handle error here
+    }
+    
+    if (![[GANTracker sharedTracker] trackEvent:@"Carga preferencias"
+                                         action:@"viewDidLoad"
+                                          label:@"PreferenciasController"
+                                          value:-1
+                                      withError:&error]) {
+        // Handle error here
+    }
+    
+    if (![[GANTracker sharedTracker] trackPageview:@"Preferencias"
+                                         withError:&error]) {
+        // Handle error here
+    }
+
+    
+    
+    
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES); 
 	NSString *documentsDirectory = [paths objectAtIndex:0];
 	
@@ -156,7 +182,8 @@
     [super dealloc];
 }
 
--(IBAction) botonActualizarPresupuesto:(id)sender{
+-(IBAction) botonActualizarPresupuesto:(id)sender
+{
 	
 	//Obtenemos el título del botón pulsado, nos indicará la página del sobre
 	NSString *sobre = [[NSString alloc] init];
@@ -169,25 +196,76 @@
 	self.sobreActualizar = [f numberFromString:sobre];
 	NSString *presupuesto = [[NSString alloc]init];
 	
+    
+    NSError *error;
+    
+   
+    
 	//Presupuesto a actualizar
 	switch ([sobreActualizar intValue]) {
 		case 0:
+            if (![[GANTracker sharedTracker] trackEvent:@"Actualizar gastos"
+                                                 action:@"actualizar gastos básicos (comida...)"
+                                                  label:@"PreferenciasController"
+                                                  value:-1
+                                              withError:&error]) {
+                // Handle error here
+            }
+
 			presupuesto = txtSobre0.text;
 			[txtSobre0 resignFirstResponder]; 
 			break;
 		case 1:
+            
+            
+            if (![[GANTracker sharedTracker] trackEvent:@"Actualizar gastos"
+                                                 action:@"actualizar Costes fijos"
+                                                  label:@"PreferenciasController"
+                                                  value:-1
+                                              withError:&error]) {
+                // Handle error here
+            }
+            
 			presupuesto = txtSobre1.text;
 			[txtSobre1 resignFirstResponder]; 
 			break;
 		case 2:
+            
+            
+            if (![[GANTracker sharedTracker] trackEvent:@"Actualizar gastos"
+                                                 action:@"actualizar Transporte"
+                                                  label:@"PreferenciasController"
+                                                  value:-1
+                                              withError:&error]) {
+                // Handle error here
+            }
+
 			presupuesto = txtSobre2.text;
 			[txtSobre2 resignFirstResponder]; 
 			break;
-		case 3:
+		case 3:        
+            
+            if (![[GANTracker sharedTracker] trackEvent:@"Actualizar gastos"
+                                                 action:@"actualizar Ocio"
+                                                  label:@"PreferenciasController"
+                                                  value:-1
+                                              withError:&error]) {
+                // Handle error here
+            }
+
 			presupuesto = txtSobre3.text;
 			[txtSobre3 resignFirstResponder]; 
 			break;
-		case 4:
+		case 4:            
+            
+            if (![[GANTracker sharedTracker] trackEvent:@"Actualizar gastos"
+                                                 action:@"actualizar Otros Gastos"
+                                                  label:@"PreferenciasController"
+                                                  value:-1
+                                              withError:&error]) {
+                // Handle error here
+            }
+
 			presupuesto = txtSobre4.text;
 			[txtSobre4 resignFirstResponder]; 
 			break;
@@ -286,9 +364,16 @@
 
 -(void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex
 {
-	
+	 NSError *error;
 	if (buttonIndex==[actionSheet destructiveButtonIndex]){
-		NSLog(@"Actualiza AHORA");
+		if (![[GANTracker sharedTracker] trackEvent:@"Actualizar gastos"
+                                             action:@"Actualiza ahora"
+                                              label:@"PreferenciasController"
+                                              value:-1
+                                          withError:&error]) {
+            // Handle error here
+        }
+        NSLog(@"Actualiza AHORA");
 		
 		[self recalcular:self.sobreActualizar Presupuesto:self.presupuestoActualizar];
 		self.sumarPresupuestos;
@@ -296,9 +381,30 @@
 	
     if (buttonIndex ==1 ){
         // Actualiza en el próximo reset
+        if (![[GANTracker sharedTracker] trackEvent:@"Actualizar gastos"
+                                             action:@"Actualizará en el próximo reset"
+                                              label:@"PreferenciasController"
+                                              value:-1
+                                          withError:&error]) {
+            // Handle error here
+        }
+        
 		NSLog(@"Solo actualiza el presupuesto en el plis y de ahi lo cogerá al hacer el reset");
 		[self actualizar:self.sobreActualizar Presupuesto:self.presupuestoActualizar];
 		self.sumarPresupuestos;
+    }
+    
+    if (buttonIndex ==2) //btn cancelar
+    {
+               
+        if (![[GANTracker sharedTracker] trackEvent:@"Actualizar gastos"
+                                             action:@"Usuario cancela acción"
+                                              label:@"PreferenciasController"
+                                              value:-1
+                                          withError:&error]) {
+            // Handle error here
+        }
+
     }
 }
 

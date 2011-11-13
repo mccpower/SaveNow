@@ -28,20 +28,24 @@
 		6EBA48E2132BFF61005C13F1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EBA48E1132BFF61005C13F1 /* Localizable.strings */; };
 		6EBA4995132C10E5005C13F1 /* fondopref.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBA4994132C10E5005C13F1 /* fondopref.png */; };
 		6EBD6952132819F8009B5A21 /* preferenciasTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBD6951132819F8009B5A21 /* preferenciasTab.png */; };
+		6EBE17A9147072F200B42A7D /* libGoogleAnalytics_NoThumb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBE17A7147072F200B42A7D /* libGoogleAnalytics_NoThumb.a */; };
+		6EBE17AA147072F300B42A7D /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBE17A8147072F200B42A7D /* libGoogleAnalytics.a */; };
+		6EBE17AC1470758700B42A7D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBE17AB1470758700B42A7D /* CFNetwork.framework */; };
+		6EBE17AE147075B000B42A7D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBE17AD147075B000B42A7D /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* EFMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFMAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* EFMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFMAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* Save Now.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Save Now.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* SaveNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28216C950DB411BC00E5133A /* SobresController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SobresController.h; path = Classes/SobresController.h; sourceTree = "<group>"; };
 		28216C960DB411BC00E5133A /* SobresController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SobresController.m; path = Classes/SobresController.m; sourceTree = "<group>"; };
 		282CCBFD0DB6C98000C4EA27 /* Preferencias.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferencias.xib; sourceTree = "<group>"; };
 		2840D7CD1179279E00D7F93C /* Sobres.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Sobres.xib; sourceTree = "<group>"; };
 		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28A0AB4B0D9B1048005BE974 /* SaveNow_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; path = SaveNow_Prefix.pch; sourceTree = "<group>"; };
+		28A0AB4B0D9B1048005BE974 /* SaveNow_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveNow_Prefix.pch; sourceTree = "<group>"; };
 		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5A583EE51299562D0088F38B /* SobreDetalleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SobreDetalleController.h; sourceTree = "<group>"; };
@@ -59,7 +63,12 @@
 		6EBA48ED132BFFA6005C13F1 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6EBA4994132C10E5005C13F1 /* fondopref.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondopref.png; sourceTree = "<group>"; };
 		6EBD6951132819F8009B5A21 /* preferenciasTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preferenciasTab.png; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* SaveNow-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; path = "SaveNow-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		6EBE17A6147072F200B42A7D /* GANTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GANTracker.h; sourceTree = "<group>"; };
+		6EBE17A7147072F200B42A7D /* libGoogleAnalytics_NoThumb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics_NoThumb.a; sourceTree = "<group>"; };
+		6EBE17A8147072F200B42A7D /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
+		6EBE17AB1470758700B42A7D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6EBE17AD147075B000B42A7D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* SaveNow-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SaveNow-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +76,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EBE17AE147075B000B42A7D /* libsqlite3.dylib in Frameworks */,
+				6EBE17AC1470758700B42A7D /* CFNetwork.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				6EBE17A9147072F200B42A7D /* libGoogleAnalytics_NoThumb.a in Frameworks */,
+				6EBE17AA147072F300B42A7D /* libGoogleAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +103,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* Save Now.app */,
+				1D6058910D05DD3D006BFB54 /* SaveNow.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +111,8 @@
 		29B97314FDCFA39411CA2CEA /* EFM */ = {
 			isa = PBXGroup;
 			children = (
+				6EBE17AD147075B000B42A7D /* libsqlite3.dylib */,
+				6EBE17AB1470758700B42A7D /* CFNetwork.framework */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -119,13 +134,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6E8B5DFE133CB3980093C0CE /* Icon.png */,
-				6E4112B9132A5FC600469C14 /* Icon@2x.png */,
-				6EBA4994132C10E5005C13F1 /* fondopref.png */,
-				6E4112651329570A00469C14 /* sobreDetalle.png */,
-				6EBD6951132819F8009B5A21 /* preferenciasTab.png */,
-				6E5D276D1325D86600A875A3 /* sobreTab.png */,
-				5A805E4912A32D8A008A9278 /* botonGuardar.jpg */,
+				6EBE17A4147071B600B42A7D /* Frameworks externos */,
+				6EBE17A3147071AE00B42A7D /* Imagenes */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* SaveNow-Info.plist */,
 				5AF4F493129AB06B0015A75A /* SobresDetalleData.plist */,
@@ -169,6 +179,38 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		6EBE17A3147071AE00B42A7D /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				6E8B5DFE133CB3980093C0CE /* Icon.png */,
+				6E4112B9132A5FC600469C14 /* Icon@2x.png */,
+				6EBA4994132C10E5005C13F1 /* fondopref.png */,
+				6E4112651329570A00469C14 /* sobreDetalle.png */,
+				6EBD6951132819F8009B5A21 /* preferenciasTab.png */,
+				6E5D276D1325D86600A875A3 /* sobreTab.png */,
+				5A805E4912A32D8A008A9278 /* botonGuardar.jpg */,
+			);
+			name = Imagenes;
+			sourceTree = "<group>";
+		};
+		6EBE17A4147071B600B42A7D /* Frameworks externos */ = {
+			isa = PBXGroup;
+			children = (
+				6EBE17A5147072DF00B42A7D /* Analytics */,
+			);
+			name = "Frameworks externos";
+			sourceTree = "<group>";
+		};
+		6EBE17A5147072DF00B42A7D /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				6EBE17A6147072F200B42A7D /* GANTracker.h */,
+				6EBE17A7147072F200B42A7D /* libGoogleAnalytics_NoThumb.a */,
+				6EBE17A8147072F200B42A7D /* libGoogleAnalytics.a */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -186,7 +228,7 @@
 			);
 			name = SaveNow;
 			productName = EFM;
-			productReference = 1D6058910D05DD3D006BFB54 /* Save Now.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* SaveNow.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -279,6 +321,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SaveNow_Prefix.pch;
 				INFOPLIST_FILE = "SaveNow-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = SaveNow;
 			};
 			name = Debug;
@@ -291,6 +337,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SaveNow_Prefix.pch;
 				INFOPLIST_FILE = "SaveNow-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = SaveNow;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -319,6 +369,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SaveNow_Prefix.pch;
 				INFOPLIST_FILE = "SaveNow-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = SaveNow;
 				VALIDATE_PRODUCT = YES;
 			};

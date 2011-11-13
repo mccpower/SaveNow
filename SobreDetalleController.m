@@ -20,8 +20,18 @@
 @synthesize fechaResetDato;
 
 
--(IBAction)sacarDineroSobre:(id)sender{
-	
+-(IBAction)sacarDineroSobre:(id)sender
+{
+    NSError *error;
+	NSString *stringAnalytics=[NSString stringWithFormat:@"Usuario saca dinero sobre %@",lblTitulo.text];
+    if (![[GANTracker sharedTracker] trackEvent:@"Sacar dinero"
+                                         action:stringAnalytics
+                                          label:@"SobreDetalleController"
+                                          value:-1
+                                      withError:&error]) {
+        // Handle error here
+    }
+    
 	NSLog(@"Método sacar dinero sobre");
 	
 	//Se oculta la vista de información por si el usuario ha pulsado en sacar dinero y estaba visible
@@ -82,7 +92,17 @@
 	[txtDinero resignFirstResponder]; 	
 }
 
--(IBAction)resetDineroSobre:(id)sender{
+-(IBAction)resetDineroSobre:(id)sender
+{
+    NSError *error;
+	NSString *stringAnalytics=[NSString stringWithFormat:@"Usuario resetea sobre %@",lblTitulo.text];
+    if (![[GANTracker sharedTracker] trackEvent:@"Reset sobre"
+                                         action:stringAnalytics
+                                          label:@"SobreDetalleController"
+                                          value:-1
+                                      withError:&error]) {
+        // Handle error here
+    }
 	//Se oculta la vista de información por si el usuario ha pulsado en reset y estaba visible
 	self.ocultarInformacion;
 	
@@ -231,11 +251,20 @@
 	NSMutableArray *listaInfoSobres = [NSMutableArray arrayWithContentsOfFile:pathData];
 	NSMutableDictionary *infoSobre = [[NSMutableDictionary alloc]init];
 	
-	
+    NSError *error;	
 	if (buttonIndex==[actionSheet destructiveButtonIndex])
 	{
 		NSLog(@"Solo resetear");
-						
+        
+        NSString *stringAnalytics=[NSString stringWithFormat:@"Solo resetear sobre %@",lblTitulo.text];
+        if (![[GANTracker sharedTracker] trackEvent:@"Resetear dinero"
+                                             action:stringAnalytics
+                                              label:@"SobreDetalleController"
+                                              value:-1
+                                          withError:&error]) 
+        {
+            // Handle error here
+        }        
 			infoSobre = (NSMutableDictionary*)[listaInfoSobres objectAtIndex:pageNumber];
 			//Para resetear pone a 0 el valor de gastado, se marca la fecha del reseteo
 			
@@ -268,6 +297,16 @@
 	}
 	if (buttonIndex==1)
 	{
+        NSString *stringAnalytics=[NSString stringWithFormat:@"Resetear sobre %@ y enviar a ahorros",lblTitulo.text];
+        if (![[GANTracker sharedTracker] trackEvent:@"Resetear dinero"
+                                             action:stringAnalytics
+                                              label:@"SobreDetalleController"
+                                              value:-1
+                                          withError:&error]) 
+        {
+            // Handle error here
+        } 
+        
 		 //Primero resetea
 			
 		infoSobre = (NSMutableDictionary*)[listaInfoSobres objectAtIndex:pageNumber];
@@ -411,6 +450,14 @@
 }
 -(void)cargarDetalleVista
 {
+    NSError *error;
+    NSString *stringAnalytics=[NSString stringWithFormat:@"Sobre %@",lblTitulo.text];
+    if (![[GANTracker sharedTracker] trackPageview:stringAnalytics
+                                         withError:&error]) 
+    {
+        // Handle error here
+    }
+    
 	NSArray *lista_TiposSobres = [[NSArray alloc] initWithObjects:NSLocalizedString(@"necesidadesBasicas",@""),NSLocalizedString(@"gastosFijos",@"")
 								  ,NSLocalizedString(@"transporte",@""),NSLocalizedString(@"ocio",@""),NSLocalizedString(@"otrosGastos",@"")
 								  ,NSLocalizedString(@"ahorro",@""),nil];
