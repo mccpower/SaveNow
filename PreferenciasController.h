@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "EFMAppDelegate.h"
+#import <MessageUI/MessageUI.h>
 
-@interface PreferenciasController : UIViewController <UIActionSheetDelegate>{
+@interface PreferenciasController : UIViewController <UIActionSheetDelegate,MFMailComposeViewControllerDelegate>{
 	
 	IBOutlet UILabel *lblSobre0;
 	IBOutlet UILabel *lblSobre1;
@@ -58,11 +59,13 @@
 
 @property (nonatomic,retain) NSNumber *sobreActualizar;
 @property (nonatomic,retain) NSNumber *presupuestoActualizar;
+@property (retain, nonatomic) IBOutlet UIButton *btnFeedback;
 
 
 -(IBAction) botonActualizarPresupuesto:(id)sender;
 -(IBAction) vaciarTextbox:(id)sender;
 -(IBAction)ocultarTeclado:(id)sender;
 -(IBAction)cambiarMoneda:(id)sender;
+- (IBAction)sendFeedback:(id)sender;
 
 @end

@@ -8,3 +8,5 @@
     #import "GANTracker.h"
 
 #endif
+
+#define APP_VERSION @"1.1.0"

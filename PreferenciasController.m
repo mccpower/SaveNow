@@ -7,6 +7,8 @@
 //
 
 #import "PreferenciasController.h"
+#import <QuartzCore/QuartzCore.h>
+
 @interface PreferenciasController (PrivateMethods)
 -(void)actualizar:(NSNumber *)sobre_Actualizar Presupuesto:(NSNumber *)presupuesto_Actualizar;
 -(void)recalcular:(NSNumber *)sobre_Actualizar Presupuesto:(NSNumber *)presupuesto_Actualizar;
@@ -15,6 +17,7 @@
 @end
 
 @implementation PreferenciasController
+@synthesize btnFeedback;
 @synthesize lblSobre0,lblSobre1,lblSobre2,lblSobre3,lblSobre4,txtSobre0,txtSobre1,txtSobre2,txtSobre3,txtSobre4,tituloPresupuestosSobres,tituloMoneda,tituloTotal,totalDato,segmEleccionMoneda,sobreActualizar,presupuestoActualizar;
 
 /*
@@ -60,7 +63,9 @@
     }
 
     
-    
+    [[btnFeedback layer] setCornerRadius:8.0f];
+    [[btnFeedback layer] setMasksToBounds:YES];
+    [[btnFeedback layer] setBorderWidth:1.0f];
     
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES); 
 	NSString *documentsDirectory = [paths objectAtIndex:0];
@@ -155,6 +160,7 @@
 }
 
 - (void)viewDidUnload {
+    [self setBtnFeedback:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -179,6 +185,7 @@
 	[segmEleccionMoneda release];
 	[sobreActualizar release];
 	[presupuestoActualizar release];
+    [btnFeedback release];
     [super dealloc];
 }
 
@@ -464,6 +471,32 @@
 	[userDefaults setValue:moneda forKey:@"Moneda"];
 	[userDefaults synchronize];
 }
+
+- (IBAction)sendFeedback:(id)sender 
+{
+    
+    MFMailComposeViewController *mailController;
+    if ([MFMailComposeViewController canSendMail]) {
+        mailController = [[MFMailComposeViewController alloc] init];
+        mailController.mailComposeDelegate = self;
+        
+        [mailController setSubject:@"Save Now Feedback"];
+        [mailController setToRecipients:[NSArray arrayWithObject:@"pynsoftware@gmail.com"]];
+        
+        NSString *device=[NSString stringWithFormat:@"Device:%@ System Version:%@",[[UIDevice currentDevice]model],[[UIDevice currentDevice]systemVersion]];
+        NSString *version = [NSString stringWithFormat:@"App version : %@", APP_VERSION];
+        [mailController setMessageBody: [NSString stringWithFormat:@"\n\n\n\n\n\n\n\n%@\n\n%@", device, version]
+                                isHTML: NO ];
+        [self presentModalViewController:mailController animated:YES];
+        
+    }else{
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Unable to email feedback. Does your iOS device support email?" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alert show];
+        [alert release];
+        
+    }
+
+}
 -(void)sumarPresupuestos{
 	//Cargo los presupuestos actuales
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES); 
@@ -552,4 +585,55 @@
 	totalDato.text= [NSString stringWithFormat:@"%.2f",total];
 
 }
+
+#pragma mark_Delegate email
+
+- (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error{
+	UIAlertView *alert = nil;
+    
+    NSError *errorAnalytics;
+	switch (result) {
+		case MFMailComposeResultSent:
+            if (![[GANTracker sharedTracker] trackEvent:@"Feedback"
+                                                 action:@"Usuario envía feedback"
+                                                  label:@"PreferenciasController"
+                                                  value:-1
+                                              withError:&errorAnalytics]) {
+                // Handle error here
+            }
+
+			alert = [[UIAlertView alloc] initWithTitle:@"Sent" message:@"Feedback has been sent" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+			break;
+		case MFMailComposeResultSaved:
+            if (![[GANTracker sharedTracker] trackEvent:@"Feedback"
+                                                 action:@"Usuario guarda email feedback"
+                                                  label:@"PreferenciasController"
+                                                  value:-1
+                                              withError:&errorAnalytics]) {
+                // Handle error here
+            }
+			alert = [[UIAlertView alloc] initWithTitle:@"Saved draft" message:@"Draft feedback has been saved" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+			break;
+		case MFMailComposeResultFailed:
+            if (![[GANTracker sharedTracker] trackEvent:@"Feedback"
+                                                 action:@"Error al enviar feedback"
+                                                  label:@"PreferenciasController"
+                                                  value:-1
+                                              withError:&errorAnalytics]) {
+                // Handle error here
+            }
+			alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Sorry, feedback could not be sent." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+			break;
+		default:
+			break;
+	}
+	if (alert != nil) {
+		[alert	show];
+		[alert release];
+	}
+    
+	[self dismissModalViewControllerAnimated:YES];
+}
+
+
 @end

@@ -32,6 +32,7 @@
 		6EBE17AA147072F300B42A7D /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBE17A8147072F200B42A7D /* libGoogleAnalytics.a */; };
 		6EBE17AC1470758700B42A7D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBE17AB1470758700B42A7D /* CFNetwork.framework */; };
 		6EBE17AE147075B000B42A7D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBE17AD147075B000B42A7D /* libsqlite3.dylib */; };
+		6EBE17B81470878A00B42A7D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBE17B71470878A00B42A7D /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		6EBE17A8147072F200B42A7D /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
 		6EBE17AB1470758700B42A7D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		6EBE17AD147075B000B42A7D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		6EBE17B71470878A00B42A7D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* SaveNow-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SaveNow-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EBE17B81470878A00B42A7D /* MessageUI.framework in Frameworks */,
 				6EBE17AE147075B000B42A7D /* libsqlite3.dylib in Frameworks */,
 				6EBE17AC1470758700B42A7D /* CFNetwork.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
@@ -111,8 +114,6 @@
 		29B97314FDCFA39411CA2CEA /* EFM */ = {
 			isa = PBXGroup;
 			children = (
-				6EBE17AD147075B000B42A7D /* libsqlite3.dylib */,
-				6EBE17AB1470758700B42A7D /* CFNetwork.framework */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -147,9 +148,12 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6EBE17B71470878A00B42A7D /* MessageUI.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				6EBE17AB1470758700B42A7D /* CFNetwork.framework */,
+				6EBE17AD147075B000B42A7D /* libsqlite3.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -529,7 +529,8 @@
     
     
 	NSLog(@"Metodo mostrar informacion");
-	switch (pageNumber) {
+	switch (pageNumber) 
+    {
 		case 0:
 			textoInformacion.text=NSLocalizedString(@"informacionNecesidadesBasicas",@""); 
 			break;
