@@ -33,6 +33,7 @@
 	
 	NSNumber *sobreActualizar;
 	NSNumber *presupuestoActualizar;
+    
 
 }
 
@@ -60,6 +61,7 @@
 @property (nonatomic,retain) NSNumber *sobreActualizar;
 @property (nonatomic,retain) NSNumber *presupuestoActualizar;
 @property (retain, nonatomic) IBOutlet UIButton *btnFeedback;
+@property (retain, nonatomic) IBOutlet UILabel *lblAlertaDiaria;
 
 
 -(IBAction) botonActualizarPresupuesto:(id)sender;
@@ -67,5 +69,6 @@
 -(IBAction)ocultarTeclado:(id)sender;
 -(IBAction)cambiarMoneda:(id)sender;
 - (IBAction)sendFeedback:(id)sender;
+- (IBAction)cambioAlertaDiaria:(id)sender;
 
 @end

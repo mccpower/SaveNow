@@ -18,6 +18,7 @@
 
 @implementation PreferenciasController
 @synthesize btnFeedback;
+@synthesize lblAlertaDiaria;
 @synthesize lblSobre0,lblSobre1,lblSobre2,lblSobre3,lblSobre4,txtSobre0,txtSobre1,txtSobre2,txtSobre3,txtSobre4,tituloPresupuestosSobres,tituloMoneda,tituloTotal,totalDato,segmEleccionMoneda,sobreActualizar,presupuestoActualizar;
 
 /*
@@ -161,6 +162,7 @@
 
 - (void)viewDidUnload {
     [self setBtnFeedback:nil];
+    [self setLblAlertaDiaria:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -186,6 +188,7 @@
 	[sobreActualizar release];
 	[presupuestoActualizar release];
     [btnFeedback release];
+    [lblAlertaDiaria release];
     [super dealloc];
 }
 
@@ -496,6 +499,9 @@
         
     }
 
+}
+
+- (IBAction)cambioAlertaDiaria:(id)sender {
 }
 -(void)sumarPresupuestos{
 	//Cargo los presupuestos actuales
